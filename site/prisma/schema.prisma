@@ -1,0 +1,275 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+enum PreferenceRoundType {
+  MOOD
+  STYLE
+  TEMPERATURE
+  MATERIAL
+  STORAGE
+  LIGHTING
+  PERSONALITY
+}
+
+enum PreferenceAction {
+  LIKE
+  DISLIKE
+  NEUTRAL
+  SKIP
+}
+
+enum RecommendationStrategy {
+  SAFE
+  PERSONAL
+  BUDGET
+}
+
+enum ProjectStageType {
+  MEASURE
+  DESIGN
+  QUOTE
+  ORDER
+  PRODUCTION
+  LOGISTICS
+  INSTALLATION
+  ACCEPTANCE
+}
+
+enum ProjectStageStatus {
+  COMPLETED
+  CURRENT
+  RISK
+  PENDING
+}
+
+enum ProjectDemoStatus {
+  IN_PROGRESS
+  RISKS_RESOLVED
+}
+
+enum ProjectRiskType {
+  QUOTE_OMISSION
+  CROSS_CATEGORY_DELIVERY
+}
+
+enum ProjectRiskSeverity {
+  HIGH
+  MEDIUM
+}
+
+enum ProjectRiskStatus {
+  OPEN
+  RESOLVED
+}
+
+model CustomerSession {
+  id           String             @id @default(uuid()) @db.Uuid
+  demoName     String?            @map("demo_name")
+  city         String?
+  currentRound Int                @default(0) @map("current_round")
+  completedAt  DateTime?          @map("completed_at")
+  createdAt    DateTime           @default(now()) @map("created_at")
+  updatedAt    DateTime           @updatedAt @map("updated_at")
+  request      CustomerRequest?
+  profile      PreferenceProfile?
+  events       PreferenceEvent[]
+  recommendationRuns RecommendationRun[]
+  projectDemos   ProjectDemo[]
+
+  @@index([createdAt])
+  @@map("customer_sessions")
+}
+
+model ProjectDemo {
+  id                String            @id @default(uuid()) @db.Uuid
+  projectCode       String            @unique @map("project_code")
+  sessionId         String            @map("session_id") @db.Uuid
+  selectedCaseCode  String            @map("selected_case_code")
+  currentStage      ProjectStageType  @map("current_stage")
+  promisedDate      DateTime          @map("promised_date")
+  demoStatus        ProjectDemoStatus @map("demo_status")
+  version           String
+  createdAt         DateTime          @default(now()) @map("created_at")
+  updatedAt         DateTime          @updatedAt @map("updated_at")
+  session           CustomerSession   @relation(fields: [sessionId], references: [id], onDelete: Cascade)
+  stages            ProjectStage[]
+  risks             ProjectRiskEvent[]
+
+  @@index([sessionId, createdAt])
+  @@index([selectedCaseCode])
+  @@map("project_demos")
+}
+
+model ProjectStage {
+  id          String             @id @default(uuid()) @db.Uuid
+  projectId   String             @map("project_id") @db.Uuid
+  stage       ProjectStageType
+  sequence    Int
+  status      ProjectStageStatus
+  plannedDate DateTime           @map("planned_date")
+  summary     String
+  createdAt   DateTime           @default(now()) @map("created_at")
+  updatedAt   DateTime           @updatedAt @map("updated_at")
+  project     ProjectDemo        @relation(fields: [projectId], references: [id], onDelete: Cascade)
+
+  @@unique([projectId, stage])
+  @@index([projectId, sequence])
+  @@map("project_stages")
+}
+
+model ProjectRiskEvent {
+  id          String              @id @default(uuid()) @db.Uuid
+  projectId   String              @map("project_id") @db.Uuid
+  riskCode    String              @map("risk_code")
+  riskType    ProjectRiskType     @map("risk_type")
+  severity    ProjectRiskSeverity
+  status      ProjectRiskStatus   @default(OPEN)
+  evidence    String
+  impact      String
+  suggestion  Json
+  resolvedAt  DateTime?           @map("resolved_at")
+  createdAt   DateTime            @default(now()) @map("created_at")
+  updatedAt   DateTime            @updatedAt @map("updated_at")
+  project     ProjectDemo         @relation(fields: [projectId], references: [id], onDelete: Cascade)
+
+  @@unique([projectId, riskCode])
+  @@index([projectId, status])
+  @@index([riskType, severity])
+  @@map("project_risk_events")
+}
+
+model DesignCase {
+  id              String               @id @default(uuid()) @db.Uuid
+  caseCode        String               @unique @map("case_code")
+  title           String
+  dataOrigin      String               @map("data_origin")
+  publicCaseUrl   String?              @map("public_case_url")
+  region          String
+  city            String
+  layout          String
+  areaSqm         Int                  @map("area_sqm")
+  mainStyle       String               @map("main_style")
+  secondaryStyle  String?              @map("secondary_style")
+  ambience        String
+  budgetTotal     Decimal              @map("budget_total") @db.Decimal(12, 2)
+  householdType   String               @map("household_type")
+  specialNeeds    Json                 @map("special_needs")
+  materials       Json
+  storageRatio    Decimal              @map("storage_closed_ratio") @db.Decimal(4, 3)
+  lighting        String
+  revisionCount   Int                  @map("revision_count")
+  satisfaction5   Decimal?             @map("satisfaction_5") @db.Decimal(3, 2)
+  deliveryDays    Int                  @map("delivery_days")
+  riskTags        Json                 @map("risk_tags")
+  displayRight    String               @map("display_right")
+  trainingRight   String               @map("training_right")
+  anonymized      Boolean              @default(true)
+  imagePath       String?              @map("image_path")
+  createdAt       DateTime             @default(now()) @map("created_at")
+  updatedAt       DateTime             @updatedAt @map("updated_at")
+  recommendationItems RecommendationItem[]
+
+  @@index([mainStyle])
+  @@index([layout, areaSqm])
+  @@index([budgetTotal])
+  @@map("design_cases")
+}
+
+model RecommendationRun {
+  id               String               @id @default(uuid()) @db.Uuid
+  sessionId        String               @map("session_id") @db.Uuid
+  algorithmVersion String               @map("algorithm_version")
+  profileVersion   String               @map("profile_version")
+  weights          Json
+  candidateSet     Json                 @map("candidate_set")
+  sourceCaseCount  Int                  @map("source_case_count")
+  eligibleCount    Int                  @map("eligible_count")
+  candidateCount   Int                  @map("candidate_count")
+  expanded         Boolean              @default(false)
+  createdAt        DateTime             @default(now()) @map("created_at")
+  updatedAt        DateTime             @updatedAt @map("updated_at")
+  session          CustomerSession      @relation(fields: [sessionId], references: [id], onDelete: Cascade)
+  items            RecommendationItem[]
+
+  @@index([sessionId, createdAt])
+  @@index([algorithmVersion])
+  @@map("recommendation_runs")
+}
+
+model RecommendationItem {
+  id              String                 @id @default(uuid()) @db.Uuid
+  runId           String                 @map("run_id") @db.Uuid
+  designCaseId    String?                @map("design_case_id") @db.Uuid
+  caseCode        String                 @map("case_code")
+  strategy        RecommendationStrategy
+  rank            Int
+  totalScore      Decimal                @map("total_score") @db.Decimal(5, 2)
+  strategyScore   Decimal                @map("strategy_score") @db.Decimal(5, 2)
+  breakdown       Json
+  reasons         Json
+  tradeoff        String
+  exploration     Boolean                @default(false)
+  createdAt       DateTime               @default(now()) @map("created_at")
+  updatedAt       DateTime               @updatedAt @map("updated_at")
+  run             RecommendationRun      @relation(fields: [runId], references: [id], onDelete: Cascade)
+  designCase      DesignCase?             @relation(fields: [designCaseId], references: [id], onDelete: SetNull)
+
+  @@unique([runId, strategy])
+  @@index([runId, rank])
+  @@index([designCaseId])
+  @@map("recommendation_items")
+}
+
+model CustomerRequest {
+  id             String          @id @default(uuid()) @db.Uuid
+  sessionId      String          @unique @map("session_id") @db.Uuid
+  household      String
+  layout         String
+  areaSqm        Int             @map("area_sqm")
+  budgetWan      Decimal         @map("budget_wan") @db.Decimal(6, 2)
+  childSafety    Boolean         @default(false) @map("child_safety")
+  easyCleaning   Boolean         @default(false) @map("easy_cleaning")
+  visualNeatness Boolean         @default(false) @map("visual_neatness")
+  createdAt      DateTime        @default(now()) @map("created_at")
+  updatedAt      DateTime        @updatedAt @map("updated_at")
+  session        CustomerSession @relation(fields: [sessionId], references: [id], onDelete: Cascade)
+
+  @@map("customer_requests")
+}
+
+model PreferenceProfile {
+  id           String          @id @default(uuid()) @db.Uuid
+  sessionId    String          @unique @map("session_id") @db.Uuid
+  profileJson  Json            @map("profile_json")
+  version      Int             @default(1)
+  createdAt    DateTime        @default(now()) @map("created_at")
+  updatedAt    DateTime        @updatedAt @map("updated_at")
+  session      CustomerSession @relation(fields: [sessionId], references: [id], onDelete: Cascade)
+
+  @@index([updatedAt])
+  @@map("preference_profiles")
+}
+
+model PreferenceEvent {
+  id          String              @id @default(uuid()) @db.Uuid
+  sessionId   String              @map("session_id") @db.Uuid
+  round       PreferenceRoundType
+  optionId    String?             @map("option_id")
+  optionTitle String?             @map("option_title")
+  value       String?
+  action      PreferenceAction
+  sequence    Int
+  createdAt   DateTime            @default(now()) @map("created_at")
+  session     CustomerSession     @relation(fields: [sessionId], references: [id], onDelete: Cascade)
+
+  @@unique([sessionId, sequence])
+  @@index([sessionId, round])
+  @@index([createdAt])
+  @@map("preference_events")
+}

@@ -1,0 +1,2996 @@
+[
+  {
+    "id": "OP-PUB-001",
+    "title": "97㎡北欧风情设计案例",
+    "dataOrigin": "官网公开案例+AI补全",
+    "publicCaseUrl": "https://www.oppein.cn/homematch/613",
+    "publicVerifiedFields": "案例标题;案例URL;主图URL;面积(标题显式);详情页抽查",
+    "aiGeneratedFields": "城市;家庭结构;总预算;标准风格映射;配色;材质;收纳;灯光;成交标签;修改次数;满意度;交期;风险",
+    "region": "华南",
+    "city": "广州",
+    "layout": "三房两厅",
+    "areaM2": 97,
+    "mainStyle": "现代原木",
+    "secondaryStyle": "自然北欧",
+    "ambience": "温暖松弛",
+    "budgetMin": 175000,
+    "budgetMax": 213000,
+    "budgetTotal": 194000,
+    "householdType": "夫妻+1名儿童",
+    "specialNeeds": [
+      "儿童安全",
+      "成长收纳"
+    ],
+    "primaryColors": [
+      "米白",
+      "浅橡木",
+      "暖灰"
+    ],
+    "materials": [
+      "木纹板",
+      "哑光板",
+      "织物"
+    ],
+    "storageClosedRatio": 0.74,
+    "lightingPreference": "暖光无主灯",
+    "simulatedTransactionStatus": "AI模拟已成交标签",
+    "transactionEvidence": "无",
+    "revisionCount": 1,
+    "satisfaction5": 4,
+    "deliveryDays": 52,
+    "riskTags": [
+      "预算接近上限",
+      "跨品类交期"
+    ],
+    "displayRight": "仅限内部研究/原页面访问",
+    "trainingRight": "否（未获训练授权）",
+    "anonymized": true,
+    "imageStatus": "官网公开主图URL（不嵌入、不再分发）",
+    "image": "/cases/02_official_reference_derivatives/OP-PUB-001_97㎡北欧风情设计案例_AI演示图.png",
+    "sourceUrl": "https://www.oppein.cn/homematch/613"
+  },
+  {
+    "id": "OP-PUB-002",
+    "title": "金属风摩登新贵系列三居室",
+    "dataOrigin": "官网公开案例+AI补全",
+    "publicCaseUrl": "https://www.oppein.cn/homematch/610",
+    "publicVerifiedFields": "案例标题;案例URL;主图URL;户型(标题显式);详情页抽查",
+    "aiGeneratedFields": "城市;家庭结构;总预算;标准风格映射;配色;材质;收纳;灯光;成交标签;修改次数;满意度;交期;风险",
+    "region": "华南",
+    "city": "深圳",
+    "layout": "三房两厅",
+    "areaM2": 107,
+    "mainStyle": "现代轻奢",
+    "secondaryStyle": "意式轻奢",
+    "ambience": "沉稳精致",
+    "budgetMin": 225000,
+    "budgetMax": 275000,
+    "budgetTotal": 250000,
+    "householdType": "夫妻+2名儿童",
+    "specialNeeds": [
+      "儿童安全",
+      "成长收纳"
+    ],
+    "primaryColors": [
+      "暖灰",
+      "香槟金",
+      "深木"
+    ],
+    "materials": [
+      "岩板",
+      "金属",
+      "玻璃",
+      "肤感板"
+    ],
+    "storageClosedRatio": 0.7,
+    "lightingPreference": "无主灯+重点照明",
+    "simulatedTransactionStatus": "AI模拟已成交标签",
+    "transactionEvidence": "无",
+    "revisionCount": 2,
+    "satisfaction5": 4.15,
+    "deliveryDays": 57,
+    "riskTags": [
+      "图片与落地材质需复核"
+    ],
+    "displayRight": "仅限内部研究/原页面访问",
+    "trainingRight": "否（未获训练授权）",
+    "anonymized": true,
+    "imageStatus": "官网公开主图URL（不嵌入、不再分发）",
+    "image": "/cases/02_official_reference_derivatives/OP-PUB-002_金属风摩登新贵系列三居室_AI演示图.png",
+    "sourceUrl": "https://www.oppein.cn/homematch/610"
+  },
+  {
+    "id": "OP-PUB-003",
+    "title": "新中式云舍系列三居室",
+    "dataOrigin": "官网公开案例+AI补全",
+    "publicCaseUrl": "https://www.oppein.cn/homematch/608",
+    "publicVerifiedFields": "案例标题;案例URL;主图URL;户型(标题显式);详情页抽查",
+    "aiGeneratedFields": "城市;家庭结构;总预算;标准风格映射;配色;材质;收纳;灯光;成交标签;修改次数;满意度;交期;风险",
+    "region": "华南",
+    "city": "佛山",
+    "layout": "三房两厅",
+    "areaM2": 114,
+    "mainStyle": "新中式",
+    "secondaryStyle": "东方雅致",
+    "ambience": "安静雅致",
+    "budgetMin": 237000,
+    "budgetMax": 289000,
+    "budgetTotal": 263000,
+    "householdType": "三代同堂",
+    "specialNeeds": [
+      "适老",
+      "夜间照明",
+      "低位收纳"
+    ],
+    "primaryColors": [
+      "米白",
+      "胡桃木",
+      "黛灰"
+    ],
+    "materials": [
+      "木纹板",
+      "格栅",
+      "岩板",
+      "黄铜"
+    ],
+    "storageClosedRatio": 0.76,
+    "lightingPreference": "暖光混合照明",
+    "simulatedTransactionStatus": "AI模拟已成交标签",
+    "transactionEvidence": "无",
+    "revisionCount": 3,
+    "satisfaction5": 4.3,
+    "deliveryDays": 62,
+    "riskTags": [
+      "图片与落地材质需复核"
+    ],
+    "displayRight": "仅限内部研究/原页面访问",
+    "trainingRight": "否（未获训练授权）",
+    "anonymized": true,
+    "imageStatus": "官网公开主图URL（不嵌入、不再分发）",
+    "image": "/cases/02_official_reference_derivatives/OP-PUB-003_新中式云舍系列三居室_AI演示图.png",
+    "sourceUrl": "https://www.oppein.cn/homematch/608"
+  },
+  {
+    "id": "OP-PUB-004",
+    "title": "伯爵现代典雅两居室",
+    "dataOrigin": "官网公开案例+AI补全",
+    "publicCaseUrl": "https://www.oppein.cn/homematch/578",
+    "publicVerifiedFields": "案例标题;案例URL;主图URL;户型(标题显式)",
+    "aiGeneratedFields": "城市;家庭结构;总预算;标准风格映射;配色;材质;收纳;灯光;成交标签;修改次数;满意度;交期;风险",
+    "region": "华南",
+    "city": "东莞",
+    "layout": "两房两厅",
+    "areaM2": 74,
+    "mainStyle": "现代轻奢",
+    "secondaryStyle": "意式轻奢",
+    "ambience": "沉稳精致",
+    "budgetMin": 168000,
+    "budgetMax": 206000,
+    "budgetTotal": 187000,
+    "householdType": "新婚夫妻",
+    "specialNeeds": [
+      "强收纳",
+      "易清洁"
+    ],
+    "primaryColors": [
+      "暖灰",
+      "香槟金",
+      "深木"
+    ],
+    "materials": [
+      "岩板",
+      "金属",
+      "玻璃",
+      "肤感板"
+    ],
+    "storageClosedRatio": 0.74,
+    "lightingPreference": "无主灯+重点照明",
+    "simulatedTransactionStatus": "AI模拟已成交标签",
+    "transactionEvidence": "无",
+    "revisionCount": 4,
+    "satisfaction5": 4.45,
+    "deliveryDays": 67,
+    "riskTags": [
+      "图片与落地材质需复核"
+    ],
+    "displayRight": "仅限内部研究/原页面访问",
+    "trainingRight": "否（未获训练授权）",
+    "anonymized": true,
+    "imageStatus": "官网公开主图URL（不嵌入、不再分发）",
+    "image": "/cases/02_official_reference_derivatives/OP-PUB-004_伯爵现代典雅两居室_AI演示图.png",
+    "sourceUrl": "https://www.oppein.cn/homematch/578"
+  },
+  {
+    "id": "OP-PUB-005",
+    "title": "埃菲尔现代三居室",
+    "dataOrigin": "官网公开案例+AI补全",
+    "publicCaseUrl": "https://www.oppein.cn/homematch/605",
+    "publicVerifiedFields": "案例标题;案例URL;主图URL;户型(标题显式)",
+    "aiGeneratedFields": "城市;家庭结构;总预算;标准风格映射;配色;材质;收纳;灯光;成交标签;修改次数;满意度;交期;风险",
+    "region": "华南",
+    "city": "珠海",
+    "layout": "三房两厅",
+    "areaM2": 111,
+    "mainStyle": "现代简约",
+    "secondaryStyle": "极简",
+    "ambience": "明亮有序",
+    "budgetMin": 212000,
+    "budgetMax": 259000,
+    "budgetTotal": 235000,
+    "householdType": "夫妻+1名儿童",
+    "specialNeeds": [
+      "儿童安全",
+      "成长收纳"
+    ],
+    "primaryColors": [
+      "米白",
+      "浅灰",
+      "木色"
+    ],
+    "materials": [
+      "哑光板",
+      "岩板",
+      "玻璃"
+    ],
+    "storageClosedRatio": 0.86,
+    "lightingPreference": "混合照明",
+    "simulatedTransactionStatus": "AI模拟已成交标签",
+    "transactionEvidence": "无",
+    "revisionCount": 1,
+    "satisfaction5": 4.6,
+    "deliveryDays": 72,
+    "riskTags": [
+      "预算接近上限",
+      "跨品类交期"
+    ],
+    "displayRight": "仅限内部研究/原页面访问",
+    "trainingRight": "否（未获训练授权）",
+    "anonymized": true,
+    "imageStatus": "官网公开主图URL（不嵌入、不再分发）",
+    "image": "/cases/02_official_reference_derivatives/OP-PUB-005_埃菲尔现代三居室_AI演示图.png",
+    "sourceUrl": "https://www.oppein.cn/homematch/605"
+  },
+  {
+    "id": "OP-PUB-006",
+    "title": "立方体现代简约四居室",
+    "dataOrigin": "官网公开案例+AI补全",
+    "publicCaseUrl": "https://www.oppein.cn/homematch/582",
+    "publicVerifiedFields": "案例标题;案例URL;主图URL;户型(标题显式)",
+    "aiGeneratedFields": "城市;家庭结构;总预算;标准风格映射;配色;材质;收纳;灯光;成交标签;修改次数;满意度;交期;风险",
+    "region": "华南",
+    "city": "惠州",
+    "layout": "四房两厅",
+    "areaM2": 138,
+    "mainStyle": "现代简约",
+    "secondaryStyle": "极简",
+    "ambience": "明亮有序",
+    "budgetMin": 236000,
+    "budgetMax": 288000,
+    "budgetTotal": 262000,
+    "householdType": "夫妻+老人",
+    "specialNeeds": [
+      "适老",
+      "夜间照明",
+      "低位收纳"
+    ],
+    "primaryColors": [
+      "米白",
+      "浅灰",
+      "木色"
+    ],
+    "materials": [
+      "哑光板",
+      "岩板",
+      "玻璃"
+    ],
+    "storageClosedRatio": 0.7799999999999999,
+    "lightingPreference": "混合照明",
+    "simulatedTransactionStatus": "AI模拟已成交标签",
+    "transactionEvidence": "无",
+    "revisionCount": 2,
+    "satisfaction5": 4.75,
+    "deliveryDays": 77,
+    "riskTags": [
+      "图片与落地材质需复核"
+    ],
+    "displayRight": "仅限内部研究/原页面访问",
+    "trainingRight": "否（未获训练授权）",
+    "anonymized": true,
+    "imageStatus": "官网公开主图URL（不嵌入、不再分发）",
+    "image": "/cases/02_official_reference_derivatives/OP-PUB-006_立方体现代简约四居室_AI演示图.png",
+    "sourceUrl": "https://www.oppein.cn/homematch/582"
+  },
+  {
+    "id": "OP-PUB-007",
+    "title": "摩尔庄园欧式田园三居室",
+    "dataOrigin": "官网公开案例+AI补全",
+    "publicCaseUrl": "https://www.oppein.cn/homematch/584",
+    "publicVerifiedFields": "案例标题;案例URL;主图URL;户型(标题显式)",
+    "aiGeneratedFields": "城市;家庭结构;总预算;标准风格映射;配色;材质;收纳;灯光;成交标签;修改次数;满意度;交期;风险",
+    "region": "华南",
+    "city": "广州",
+    "layout": "三房两厅",
+    "areaM2": 108,
+    "mainStyle": "混合",
+    "secondaryStyle": "跨风格混搭",
+    "ambience": "个性丰富",
+    "budgetMin": 205000,
+    "budgetMax": 251000,
+    "budgetTotal": 228000,
+    "householdType": "三代同堂",
+    "specialNeeds": [
+      "适老",
+      "夜间照明",
+      "低位收纳"
+    ],
+    "primaryColors": [
+      "米白",
+      "木色",
+      "主题跳色"
+    ],
+    "materials": [
+      "木纹板",
+      "织物",
+      "金属"
+    ],
+    "storageClosedRatio": 0.66,
+    "lightingPreference": "按场景分区照明",
+    "simulatedTransactionStatus": "AI模拟已成交标签",
+    "transactionEvidence": "无",
+    "revisionCount": 3,
+    "satisfaction5": 4,
+    "deliveryDays": 82,
+    "riskTags": [
+      "图片与落地材质需复核"
+    ],
+    "displayRight": "仅限内部研究/原页面访问",
+    "trainingRight": "否（未获训练授权）",
+    "anonymized": true,
+    "imageStatus": "官网公开主图URL（不嵌入、不再分发）",
+    "image": "/cases/02_official_reference_derivatives/OP-PUB-007_摩尔庄园欧式田园三居室_AI演示图.png",
+    "sourceUrl": "https://www.oppein.cn/homematch/584"
+  },
+  {
+    "id": "OP-PUB-008",
+    "title": "桂香梨现代简约三居室",
+    "dataOrigin": "官网公开案例+AI补全",
+    "publicCaseUrl": "https://www.oppein.cn/homematch/587",
+    "publicVerifiedFields": "案例标题;案例URL;主图URL;户型(标题显式)",
+    "aiGeneratedFields": "城市;家庭结构;总预算;标准风格映射;配色;材质;收纳;灯光;成交标签;修改次数;满意度;交期;风险",
+    "region": "华南",
+    "city": "深圳",
+    "layout": "三房两厅",
+    "areaM2": 115,
+    "mainStyle": "现代简约",
+    "secondaryStyle": "极简",
+    "ambience": "明亮有序",
+    "budgetMin": 208000,
+    "budgetMax": 254000,
+    "budgetTotal": 231000,
+    "householdType": "夫妻+老人",
+    "specialNeeds": [
+      "适老",
+      "夜间照明",
+      "低位收纳"
+    ],
+    "primaryColors": [
+      "米白",
+      "浅灰",
+      "木色"
+    ],
+    "materials": [
+      "哑光板",
+      "岩板",
+      "玻璃"
+    ],
+    "storageClosedRatio": 0.82,
+    "lightingPreference": "混合照明",
+    "simulatedTransactionStatus": "AI模拟已成交标签",
+    "transactionEvidence": "无",
+    "revisionCount": 4,
+    "satisfaction5": 4.15,
+    "deliveryDays": 52,
+    "riskTags": [
+      "图片与落地材质需复核"
+    ],
+    "displayRight": "仅限内部研究/原页面访问",
+    "trainingRight": "否（未获训练授权）",
+    "anonymized": true,
+    "imageStatus": "官网公开主图URL（不嵌入、不再分发）",
+    "image": null,
+    "sourceUrl": null
+  },
+  {
+    "id": "OP-PUB-009",
+    "title": "美式田园风格全屋方案",
+    "dataOrigin": "官网公开案例+AI补全",
+    "publicCaseUrl": "https://www.oppein.cn/homematch/602",
+    "publicVerifiedFields": "案例标题;案例URL;主图URL",
+    "aiGeneratedFields": "城市;家庭结构;总预算;标准风格映射;配色;材质;收纳;灯光;成交标签;修改次数;满意度;交期;风险",
+    "region": "华南",
+    "city": "佛山",
+    "layout": "四房两厅",
+    "areaM2": 142,
+    "mainStyle": "混合",
+    "secondaryStyle": "跨风格混搭",
+    "ambience": "个性丰富",
+    "budgetMin": 278000,
+    "budgetMax": 340000,
+    "budgetTotal": 309000,
+    "householdType": "夫妻+老人",
+    "specialNeeds": [
+      "适老",
+      "夜间照明",
+      "低位收纳"
+    ],
+    "primaryColors": [
+      "米白",
+      "木色",
+      "主题跳色"
+    ],
+    "materials": [
+      "木纹板",
+      "织物",
+      "金属"
+    ],
+    "storageClosedRatio": 0.7000000000000001,
+    "lightingPreference": "按场景分区照明",
+    "simulatedTransactionStatus": "AI模拟已成交标签",
+    "transactionEvidence": "无",
+    "revisionCount": 1,
+    "satisfaction5": 4.3,
+    "deliveryDays": 57,
+    "riskTags": [
+      "预算接近上限",
+      "跨品类交期"
+    ],
+    "displayRight": "仅限内部研究/原页面访问",
+    "trainingRight": "否（未获训练授权）",
+    "anonymized": true,
+    "imageStatus": "官网公开主图URL（不嵌入、不再分发）",
+    "image": "/cases/02_official_reference_derivatives/OP-PUB-009_美式田园风格全屋方案_AI演示图.png",
+    "sourceUrl": "https://www.oppein.cn/homematch/602"
+  },
+  {
+    "id": "OP-PUB-010",
+    "title": "轻奢北欧风98.00㎡",
+    "dataOrigin": "官网公开案例+AI补全",
+    "publicCaseUrl": "https://www.oppein.cn/homematch/604",
+    "publicVerifiedFields": "案例标题;案例URL;主图URL;面积(标题显式);详情页抽查",
+    "aiGeneratedFields": "城市;家庭结构;总预算;标准风格映射;配色;材质;收纳;灯光;成交标签;修改次数;满意度;交期;风险",
+    "region": "华南",
+    "city": "东莞",
+    "layout": "两房两厅",
+    "areaM2": 98,
+    "mainStyle": "现代轻奢",
+    "secondaryStyle": "意式轻奢",
+    "ambience": "沉稳精致",
+    "budgetMin": 222000,
+    "budgetMax": 272000,
+    "budgetTotal": 247000,
+    "householdType": "新婚夫妻",
+    "specialNeeds": [
+      "强收纳",
+      "易清洁"
+    ],
+    "primaryColors": [
+      "暖灰",
+      "香槟金",
+      "深木"
+    ],
+    "materials": [
+      "岩板",
+      "金属",
+      "玻璃",
+      "肤感板"
+    ],
+    "storageClosedRatio": 0.76,
+    "lightingPreference": "无主灯+重点照明",
+    "simulatedTransactionStatus": "AI模拟已成交标签",
+    "transactionEvidence": "无",
+    "revisionCount": 2,
+    "satisfaction5": 4.45,
+    "deliveryDays": 62,
+    "riskTags": [
+      "图片与落地材质需复核"
+    ],
+    "displayRight": "仅限内部研究/原页面访问",
+    "trainingRight": "否（未获训练授权）",
+    "anonymized": true,
+    "imageStatus": "官网公开主图URL（不嵌入、不再分发）",
+    "image": null,
+    "sourceUrl": null
+  },
+  {
+    "id": "OP-PUB-011",
+    "title": "年轻北欧风格三房两厅",
+    "dataOrigin": "官网公开案例+AI补全",
+    "publicCaseUrl": "https://www.oppein.cn/homematch/603",
+    "publicVerifiedFields": "案例标题;案例URL;主图URL;户型(标题显式)",
+    "aiGeneratedFields": "城市;家庭结构;总预算;标准风格映射;配色;材质;收纳;灯光;成交标签;修改次数;满意度;交期;风险",
+    "region": "华南",
+    "city": "珠海",
+    "layout": "三房两厅",
+    "areaM2": 102,
+    "mainStyle": "现代原木",
+    "secondaryStyle": "自然北欧",
+    "ambience": "温暖松弛",
+    "budgetMin": 183000,
+    "budgetMax": 223000,
+    "budgetTotal": 203000,
+    "householdType": "三代同堂",
+    "specialNeeds": [
+      "适老",
+      "夜间照明",
+      "低位收纳"
+    ],
+    "primaryColors": [
+      "米白",
+      "浅橡木",
+      "暖灰"
+    ],
+    "materials": [
+      "木纹板",
+      "哑光板",
+      "织物"
+    ],
+    "storageClosedRatio": 0.74,
+    "lightingPreference": "暖光无主灯",
+    "simulatedTransactionStatus": "AI模拟已成交标签",
+    "transactionEvidence": "无",
+    "revisionCount": 3,
+    "satisfaction5": 4.6,
+    "deliveryDays": 67,
+    "riskTags": [
+      "图片与落地材质需复核"
+    ],
+    "displayRight": "仅限内部研究/原页面访问",
+    "trainingRight": "否（未获训练授权）",
+    "anonymized": true,
+    "imageStatus": "官网公开主图URL（不嵌入、不再分发）",
+    "image": "/cases/02_official_reference_derivatives/OP-PUB-011_年轻北欧风格三房两厅_AI演示图.png",
+    "sourceUrl": "https://www.oppein.cn/homematch/603"
+  },
+  {
+    "id": "OP-PUB-012",
+    "title": "现代风格全屋家具",
+    "dataOrigin": "官网公开案例+AI补全",
+    "publicCaseUrl": "https://www.oppein.cn/homematch/601",
+    "publicVerifiedFields": "案例标题;案例URL;主图URL",
+    "aiGeneratedFields": "城市;家庭结构;总预算;标准风格映射;配色;材质;收纳;灯光;成交标签;修改次数;满意度;交期;风险",
+    "region": "华南",
+    "city": "惠州",
+    "layout": "两房两厅",
+    "areaM2": 79,
+    "mainStyle": "现代简约",
+    "secondaryStyle": "极简",
+    "ambience": "明亮有序",
+    "budgetMin": 140000,
+    "budgetMax": 172000,
+    "budgetTotal": 156000,
+    "householdType": "夫妻+宠物",
+    "specialNeeds": [
+      "适宠",
+      "耐磨易清洁"
+    ],
+    "primaryColors": [
+      "米白",
+      "浅灰",
+      "木色"
+    ],
+    "materials": [
+      "哑光板",
+      "岩板",
+      "玻璃"
+    ],
+    "storageClosedRatio": 0.7999999999999999,
+    "lightingPreference": "混合照明",
+    "simulatedTransactionStatus": "AI模拟已成交标签",
+    "transactionEvidence": "无",
+    "revisionCount": 4,
+    "satisfaction5": 4.75,
+    "deliveryDays": 72,
+    "riskTags": [
+      "图片与落地材质需复核"
+    ],
+    "displayRight": "仅限内部研究/原页面访问",
+    "trainingRight": "否（未获训练授权）",
+    "anonymized": true,
+    "imageStatus": "官网公开主图URL（不嵌入、不再分发）",
+    "image": "/cases/02_official_reference_derivatives/OP-PUB-012_现代风格全屋家具_AI演示图.png",
+    "sourceUrl": "https://www.oppein.cn/homematch/601"
+  },
+  {
+    "id": "OP-PUB-013",
+    "title": "女性风格现代全屋定制",
+    "dataOrigin": "官网公开案例+AI补全",
+    "publicCaseUrl": "https://www.oppein.cn/homematch/600",
+    "publicVerifiedFields": "案例标题;案例URL;主图URL",
+    "aiGeneratedFields": "城市;家庭结构;总预算;标准风格映射;配色;材质;收纳;灯光;成交标签;修改次数;满意度;交期;风险",
+    "region": "华南",
+    "city": "广州",
+    "layout": "三房两厅",
+    "areaM2": 116,
+    "mainStyle": "现代简约",
+    "secondaryStyle": "极简",
+    "ambience": "明亮有序",
+    "budgetMin": 209000,
+    "budgetMax": 255000,
+    "budgetTotal": 232000,
+    "householdType": "夫妻+1名儿童",
+    "specialNeeds": [
+      "儿童安全",
+      "成长收纳"
+    ],
+    "primaryColors": [
+      "米白",
+      "浅灰",
+      "木色"
+    ],
+    "materials": [
+      "哑光板",
+      "岩板",
+      "玻璃"
+    ],
+    "storageClosedRatio": 0.82,
+    "lightingPreference": "混合照明",
+    "simulatedTransactionStatus": "AI模拟已成交标签",
+    "transactionEvidence": "无",
+    "revisionCount": 1,
+    "satisfaction5": 4,
+    "deliveryDays": 77,
+    "riskTags": [
+      "预算接近上限",
+      "跨品类交期"
+    ],
+    "displayRight": "仅限内部研究/原页面访问",
+    "trainingRight": "否（未获训练授权）",
+    "anonymized": true,
+    "imageStatus": "官网公开主图URL（不嵌入、不再分发）",
+    "image": null,
+    "sourceUrl": null
+  },
+  {
+    "id": "OP-PUB-014",
+    "title": "焦糖风情温暖风94㎡设计案例",
+    "dataOrigin": "官网公开案例+AI补全",
+    "publicCaseUrl": "https://www.oppein.cn/homematch/596",
+    "publicVerifiedFields": "案例标题;案例URL;主图URL;面积(标题显式);详情页抽查",
+    "aiGeneratedFields": "城市;家庭结构;总预算;标准风格映射;配色;材质;收纳;灯光;成交标签;修改次数;满意度;交期;风险",
+    "region": "华南",
+    "city": "深圳",
+    "layout": "四房两厅",
+    "areaM2": 94,
+    "mainStyle": "奶油风",
+    "secondaryStyle": "柔和治愈",
+    "ambience": "温馨柔和",
+    "budgetMin": 186000,
+    "budgetMax": 228000,
+    "budgetTotal": 207000,
+    "householdType": "夫妻+2名儿童",
+    "specialNeeds": [
+      "儿童安全",
+      "成长收纳"
+    ],
+    "primaryColors": [
+      "奶油白",
+      "浅咖",
+      "杏色"
+    ],
+    "materials": [
+      "肤感板",
+      "柔光砖",
+      "织物"
+    ],
+    "storageClosedRatio": 0.8200000000000001,
+    "lightingPreference": "暖光混合照明",
+    "simulatedTransactionStatus": "AI模拟已成交标签",
+    "transactionEvidence": "无",
+    "revisionCount": 2,
+    "satisfaction5": 4.15,
+    "deliveryDays": 82,
+    "riskTags": [
+      "图片与落地材质需复核"
+    ],
+    "displayRight": "仅限内部研究/原页面访问",
+    "trainingRight": "否（未获训练授权）",
+    "anonymized": true,
+    "imageStatus": "官网公开主图URL（不嵌入、不再分发）",
+    "image": "/cases/02_official_reference_derivatives/OP-PUB-014_焦糖风情温暖风94㎡设计案例_AI演示图.png",
+    "sourceUrl": "https://www.oppein.cn/homematch/596"
+  },
+  {
+    "id": "OP-PUB-015",
+    "title": "66㎡中式古韵风两房两厅设计",
+    "dataOrigin": "官网公开案例+AI补全",
+    "publicCaseUrl": "https://www.oppein.cn/homematch/595",
+    "publicVerifiedFields": "案例标题;案例URL;主图URL;面积(标题显式);户型(标题显式)",
+    "aiGeneratedFields": "城市;家庭结构;总预算;标准风格映射;配色;材质;收纳;灯光;成交标签;修改次数;满意度;交期;风险",
+    "region": "华南",
+    "city": "佛山",
+    "layout": "两房两厅",
+    "areaM2": 66,
+    "mainStyle": "新中式",
+    "secondaryStyle": "东方雅致",
+    "ambience": "安静雅致",
+    "budgetMin": 152000,
+    "budgetMax": 186000,
+    "budgetTotal": 169000,
+    "householdType": "夫妻+宠物",
+    "specialNeeds": [
+      "适宠",
+      "耐磨易清洁"
+    ],
+    "primaryColors": [
+      "米白",
+      "胡桃木",
+      "黛灰"
+    ],
+    "materials": [
+      "木纹板",
+      "格栅",
+      "岩板",
+      "黄铜"
+    ],
+    "storageClosedRatio": 0.8,
+    "lightingPreference": "暖光混合照明",
+    "simulatedTransactionStatus": "AI模拟已成交标签",
+    "transactionEvidence": "无",
+    "revisionCount": 3,
+    "satisfaction5": 4.3,
+    "deliveryDays": 52,
+    "riskTags": [
+      "图片与落地材质需复核"
+    ],
+    "displayRight": "仅限内部研究/原页面访问",
+    "trainingRight": "否（未获训练授权）",
+    "anonymized": true,
+    "imageStatus": "官网公开主图URL（不嵌入、不再分发）",
+    "image": "/cases/02_official_reference_derivatives/OP-PUB-015_66㎡中式古韵风两房两厅设计_AI演示图.png",
+    "sourceUrl": "https://www.oppein.cn/homematch/595"
+  },
+  {
+    "id": "OP-PUB-016",
+    "title": "简约随性105㎡三房两厅",
+    "dataOrigin": "官网公开案例+AI补全",
+    "publicCaseUrl": "https://www.oppein.cn/homematch/588",
+    "publicVerifiedFields": "案例标题;案例URL;主图URL;面积(标题显式);户型(标题显式)",
+    "aiGeneratedFields": "城市;家庭结构;总预算;标准风格映射;配色;材质;收纳;灯光;成交标签;修改次数;满意度;交期;风险",
+    "region": "华南",
+    "city": "东莞",
+    "layout": "三房两厅",
+    "areaM2": 105,
+    "mainStyle": "现代简约",
+    "secondaryStyle": "极简",
+    "ambience": "明亮有序",
+    "budgetMin": 180000,
+    "budgetMax": 220000,
+    "budgetTotal": 200000,
+    "householdType": "夫妻+老人",
+    "specialNeeds": [
+      "适老",
+      "夜间照明",
+      "低位收纳"
+    ],
+    "primaryColors": [
+      "米白",
+      "浅灰",
+      "木色"
+    ],
+    "materials": [
+      "哑光板",
+      "岩板",
+      "玻璃"
+    ],
+    "storageClosedRatio": 0.7799999999999999,
+    "lightingPreference": "混合照明",
+    "simulatedTransactionStatus": "AI模拟已成交标签",
+    "transactionEvidence": "无",
+    "revisionCount": 4,
+    "satisfaction5": 4.45,
+    "deliveryDays": 57,
+    "riskTags": [
+      "图片与落地材质需复核"
+    ],
+    "displayRight": "仅限内部研究/原页面访问",
+    "trainingRight": "否（未获训练授权）",
+    "anonymized": true,
+    "imageStatus": "官网公开主图URL（不嵌入、不再分发）",
+    "image": null,
+    "sourceUrl": null
+  },
+  {
+    "id": "OP-PUB-017",
+    "title": "简约浪漫的三居室",
+    "dataOrigin": "官网公开案例+AI补全",
+    "publicCaseUrl": "https://www.oppein.cn/homematch/577",
+    "publicVerifiedFields": "案例标题;案例URL;主图URL;户型(标题显式)",
+    "aiGeneratedFields": "城市;家庭结构;总预算;标准风格映射;配色;材质;收纳;灯光;成交标签;修改次数;满意度;交期;风险",
+    "region": "华南",
+    "city": "珠海",
+    "layout": "三房两厅",
+    "areaM2": 110,
+    "mainStyle": "奶油风",
+    "secondaryStyle": "柔和治愈",
+    "ambience": "温馨柔和",
+    "budgetMin": 205000,
+    "budgetMax": 251000,
+    "budgetTotal": 228000,
+    "householdType": "夫妻+1名儿童",
+    "specialNeeds": [
+      "儿童安全",
+      "成长收纳"
+    ],
+    "primaryColors": [
+      "奶油白",
+      "浅咖",
+      "杏色"
+    ],
+    "materials": [
+      "肤感板",
+      "柔光砖",
+      "织物"
+    ],
+    "storageClosedRatio": 0.78,
+    "lightingPreference": "暖光混合照明",
+    "simulatedTransactionStatus": "AI模拟已成交标签",
+    "transactionEvidence": "无",
+    "revisionCount": 1,
+    "satisfaction5": 4.6,
+    "deliveryDays": 62,
+    "riskTags": [
+      "预算接近上限",
+      "跨品类交期"
+    ],
+    "displayRight": "仅限内部研究/原页面访问",
+    "trainingRight": "否（未获训练授权）",
+    "anonymized": true,
+    "imageStatus": "官网公开主图URL（不嵌入、不再分发）",
+    "image": "/cases/02_official_reference_derivatives/OP-PUB-017_简约浪漫的三居室_AI演示图.png",
+    "sourceUrl": "https://www.oppein.cn/homematch/577"
+  },
+  {
+    "id": "OP-PUB-018",
+    "title": "餐厨合一40㎡浪漫一居",
+    "dataOrigin": "官网公开案例+AI补全",
+    "publicCaseUrl": "https://www.oppein.cn/homematch/572",
+    "publicVerifiedFields": "案例标题;案例URL;主图URL;面积(标题显式);户型(标题显式)",
+    "aiGeneratedFields": "城市;家庭结构;总预算;标准风格映射;配色;材质;收纳;灯光;成交标签;修改次数;满意度;交期;风险",
+    "region": "华南",
+    "city": "惠州",
+    "layout": "一房一厅",
+    "areaM2": 40,
+    "mainStyle": "奶油风",
+    "secondaryStyle": "柔和治愈",
+    "ambience": "温馨柔和",
+    "budgetMin": 84000,
+    "budgetMax": 102000,
+    "budgetTotal": 93000,
+    "householdType": "新婚夫妻",
+    "specialNeeds": [
+      "强收纳",
+      "易清洁"
+    ],
+    "primaryColors": [
+      "奶油白",
+      "浅咖",
+      "杏色"
+    ],
+    "materials": [
+      "肤感板",
+      "柔光砖",
+      "织物"
+    ],
+    "storageClosedRatio": 0.8,
+    "lightingPreference": "暖光混合照明",
+    "simulatedTransactionStatus": "AI模拟已成交标签",
+    "transactionEvidence": "无",
+    "revisionCount": 2,
+    "satisfaction5": 4.75,
+    "deliveryDays": 67,
+    "riskTags": [
+      "图片与落地材质需复核"
+    ],
+    "displayRight": "仅限内部研究/原页面访问",
+    "trainingRight": "否（未获训练授权）",
+    "anonymized": true,
+    "imageStatus": "官网公开主图URL（不嵌入、不再分发）",
+    "image": "/cases/02_official_reference_derivatives/OP-PUB-018_餐厨合一40㎡浪漫一居_AI演示图.png",
+    "sourceUrl": "https://www.oppein.cn/homematch/572"
+  },
+  {
+    "id": "OP-PUB-019",
+    "title": "86.36㎡活用收纳三居",
+    "dataOrigin": "官网公开案例+AI补全",
+    "publicCaseUrl": "https://www.oppein.cn/homematch/568",
+    "publicVerifiedFields": "案例标题;案例URL;主图URL;面积(标题显式);户型(标题显式)",
+    "aiGeneratedFields": "城市;家庭结构;总预算;标准风格映射;配色;材质;收纳;灯光;成交标签;修改次数;满意度;交期;风险",
+    "region": "华南",
+    "city": "广州",
+    "layout": "三房两厅",
+    "areaM2": 86.36,
+    "mainStyle": "现代简约",
+    "secondaryStyle": "极简",
+    "ambience": "明亮有序",
+    "budgetMin": 164000,
+    "budgetMax": 200000,
+    "budgetTotal": 182000,
+    "householdType": "三代同堂",
+    "specialNeeds": [
+      "适老",
+      "夜间照明",
+      "低位收纳"
+    ],
+    "primaryColors": [
+      "米白",
+      "浅灰",
+      "木色"
+    ],
+    "materials": [
+      "哑光板",
+      "岩板",
+      "玻璃"
+    ],
+    "storageClosedRatio": 0.84,
+    "lightingPreference": "混合照明",
+    "simulatedTransactionStatus": "AI模拟已成交标签",
+    "transactionEvidence": "无",
+    "revisionCount": 3,
+    "satisfaction5": 4,
+    "deliveryDays": 72,
+    "riskTags": [
+      "图片与落地材质需复核"
+    ],
+    "displayRight": "仅限内部研究/原页面访问",
+    "trainingRight": "否（未获训练授权）",
+    "anonymized": true,
+    "imageStatus": "官网公开主图URL（不嵌入、不再分发）",
+    "image": null,
+    "sourceUrl": null
+  },
+  {
+    "id": "OP-PUB-020",
+    "title": "都市新贵简欧风三居",
+    "dataOrigin": "官网公开案例+AI补全",
+    "publicCaseUrl": "https://www.oppein.cn/homematch/564",
+    "publicVerifiedFields": "案例标题;案例URL;主图URL;户型(标题显式)",
+    "aiGeneratedFields": "城市;家庭结构;总预算;标准风格映射;配色;材质;收纳;灯光;成交标签;修改次数;满意度;交期;风险",
+    "region": "华南",
+    "city": "深圳",
+    "layout": "三房两厅",
+    "areaM2": 114,
+    "mainStyle": "现代轻奢",
+    "secondaryStyle": "意式轻奢",
+    "ambience": "沉稳精致",
+    "budgetMin": 256000,
+    "budgetMax": 312000,
+    "budgetTotal": 284000,
+    "householdType": "夫妻+老人",
+    "specialNeeds": [
+      "适老",
+      "夜间照明",
+      "低位收纳"
+    ],
+    "primaryColors": [
+      "暖灰",
+      "香槟金",
+      "深木"
+    ],
+    "materials": [
+      "岩板",
+      "金属",
+      "玻璃",
+      "肤感板"
+    ],
+    "storageClosedRatio": 0.76,
+    "lightingPreference": "无主灯+重点照明",
+    "simulatedTransactionStatus": "AI模拟已成交标签",
+    "transactionEvidence": "无",
+    "revisionCount": 4,
+    "satisfaction5": 4.15,
+    "deliveryDays": 77,
+    "riskTags": [
+      "图片与落地材质需复核"
+    ],
+    "displayRight": "仅限内部研究/原页面访问",
+    "trainingRight": "否（未获训练授权）",
+    "anonymized": true,
+    "imageStatus": "官网公开主图URL（不嵌入、不再分发）",
+    "image": null,
+    "sourceUrl": null
+  },
+  {
+    "id": "OP-PUB-021",
+    "title": "相守幸福69㎡明媚两居",
+    "dataOrigin": "官网公开案例+AI补全",
+    "publicCaseUrl": "https://www.oppein.cn/homematch/563",
+    "publicVerifiedFields": "案例标题;案例URL;主图URL;面积(标题显式);户型(标题显式)",
+    "aiGeneratedFields": "城市;家庭结构;总预算;标准风格映射;配色;材质;收纳;灯光;成交标签;修改次数;满意度;交期;风险",
+    "region": "华南",
+    "city": "佛山",
+    "layout": "两房两厅",
+    "areaM2": 69,
+    "mainStyle": "奶油风",
+    "secondaryStyle": "柔和治愈",
+    "ambience": "温馨柔和",
+    "budgetMin": 125000,
+    "budgetMax": 153000,
+    "budgetTotal": 139000,
+    "householdType": "夫妻+宠物",
+    "specialNeeds": [
+      "适宠",
+      "耐磨易清洁"
+    ],
+    "primaryColors": [
+      "奶油白",
+      "浅咖",
+      "杏色"
+    ],
+    "materials": [
+      "肤感板",
+      "柔光砖",
+      "织物"
+    ],
+    "storageClosedRatio": 0.76,
+    "lightingPreference": "暖光混合照明",
+    "simulatedTransactionStatus": "AI模拟已成交标签",
+    "transactionEvidence": "无",
+    "revisionCount": 1,
+    "satisfaction5": 4.3,
+    "deliveryDays": 82,
+    "riskTags": [
+      "预算接近上限",
+      "跨品类交期"
+    ],
+    "displayRight": "仅限内部研究/原页面访问",
+    "trainingRight": "否（未获训练授权）",
+    "anonymized": true,
+    "imageStatus": "官网公开主图URL（不嵌入、不再分发）",
+    "image": null,
+    "sourceUrl": null
+  },
+  {
+    "id": "OP-PUB-022",
+    "title": "简约潮流范125㎡三居",
+    "dataOrigin": "官网公开案例+AI补全",
+    "publicCaseUrl": "https://www.oppein.cn/homematch/557",
+    "publicVerifiedFields": "案例标题;案例URL;主图URL;面积(标题显式);户型(标题显式)",
+    "aiGeneratedFields": "城市;家庭结构;总预算;标准风格映射;配色;材质;收纳;灯光;成交标签;修改次数;满意度;交期;风险",
+    "region": "华南",
+    "city": "东莞",
+    "layout": "三房两厅",
+    "areaM2": 125,
+    "mainStyle": "现代简约",
+    "secondaryStyle": "极简",
+    "ambience": "明亮有序",
+    "budgetMin": 220000,
+    "budgetMax": 268000,
+    "budgetTotal": 244000,
+    "householdType": "夫妻+2名儿童",
+    "specialNeeds": [
+      "儿童安全",
+      "成长收纳"
+    ],
+    "primaryColors": [
+      "米白",
+      "浅灰",
+      "木色"
+    ],
+    "materials": [
+      "哑光板",
+      "岩板",
+      "玻璃"
+    ],
+    "storageClosedRatio": 0.7999999999999999,
+    "lightingPreference": "混合照明",
+    "simulatedTransactionStatus": "AI模拟已成交标签",
+    "transactionEvidence": "无",
+    "revisionCount": 2,
+    "satisfaction5": 4.45,
+    "deliveryDays": 52,
+    "riskTags": [
+      "图片与落地材质需复核"
+    ],
+    "displayRight": "仅限内部研究/原页面访问",
+    "trainingRight": "否（未获训练授权）",
+    "anonymized": true,
+    "imageStatus": "官网公开主图URL（不嵌入、不再分发）",
+    "image": null,
+    "sourceUrl": null
+  },
+  {
+    "id": "OP-PUB-023",
+    "title": "69㎡木色生香北欧风两居",
+    "dataOrigin": "官网公开案例+AI补全",
+    "publicCaseUrl": "https://www.oppein.cn/homematch/556",
+    "publicVerifiedFields": "案例标题;案例URL;主图URL;面积(标题显式);户型(标题显式)",
+    "aiGeneratedFields": "城市;家庭结构;总预算;标准风格映射;配色;材质;收纳;灯光;成交标签;修改次数;满意度;交期;风险",
+    "region": "华南",
+    "city": "珠海",
+    "layout": "两房两厅",
+    "areaM2": 69,
+    "mainStyle": "现代原木",
+    "secondaryStyle": "自然北欧",
+    "ambience": "温暖松弛",
+    "budgetMin": 135000,
+    "budgetMax": 165000,
+    "budgetTotal": 150000,
+    "householdType": "夫妻+1名儿童",
+    "specialNeeds": [
+      "儿童安全",
+      "成长收纳"
+    ],
+    "primaryColors": [
+      "米白",
+      "浅橡木",
+      "暖灰"
+    ],
+    "materials": [
+      "木纹板",
+      "哑光板",
+      "织物"
+    ],
+    "storageClosedRatio": 0.78,
+    "lightingPreference": "暖光无主灯",
+    "simulatedTransactionStatus": "AI模拟已成交标签",
+    "transactionEvidence": "无",
+    "revisionCount": 3,
+    "satisfaction5": 4.6,
+    "deliveryDays": 57,
+    "riskTags": [
+      "图片与落地材质需复核"
+    ],
+    "displayRight": "仅限内部研究/原页面访问",
+    "trainingRight": "否（未获训练授权）",
+    "anonymized": true,
+    "imageStatus": "官网公开主图URL（不嵌入、不再分发）",
+    "image": "/cases/02_official_reference_derivatives/OP-PUB-023_69㎡木色生香北欧风两居_AI演示图.png",
+    "sourceUrl": "https://www.oppein.cn/homematch/556"
+  },
+  {
+    "id": "OP-PUB-024",
+    "title": "120㎡新中式雅致三居",
+    "dataOrigin": "官网公开案例+AI补全",
+    "publicCaseUrl": "https://www.oppein.cn/homematch/552",
+    "publicVerifiedFields": "案例标题;案例URL;主图URL;面积(标题显式);户型(标题显式);详情页抽查",
+    "aiGeneratedFields": "城市;家庭结构;总预算;标准风格映射;配色;材质;收纳;灯光;成交标签;修改次数;满意度;交期;风险",
+    "region": "华南",
+    "city": "惠州",
+    "layout": "三房两厅",
+    "areaM2": 120,
+    "mainStyle": "新中式",
+    "secondaryStyle": "东方雅致",
+    "ambience": "安静雅致",
+    "budgetMin": 254000,
+    "budgetMax": 310000,
+    "budgetTotal": 282000,
+    "householdType": "夫妻+老人",
+    "specialNeeds": [
+      "适老",
+      "夜间照明",
+      "低位收纳"
+    ],
+    "primaryColors": [
+      "米白",
+      "胡桃木",
+      "黛灰"
+    ],
+    "materials": [
+      "木纹板",
+      "格栅",
+      "岩板",
+      "黄铜"
+    ],
+    "storageClosedRatio": 0.78,
+    "lightingPreference": "暖光混合照明",
+    "simulatedTransactionStatus": "AI模拟已成交标签",
+    "transactionEvidence": "无",
+    "revisionCount": 4,
+    "satisfaction5": 4.75,
+    "deliveryDays": 62,
+    "riskTags": [
+      "图片与落地材质需复核"
+    ],
+    "displayRight": "仅限内部研究/原页面访问",
+    "trainingRight": "否（未获训练授权）",
+    "anonymized": true,
+    "imageStatus": "官网公开主图URL（不嵌入、不再分发）",
+    "image": null,
+    "sourceUrl": null
+  },
+  {
+    "id": "OP-PUB-025",
+    "title": "亮丽北欧风78㎡潮流两居",
+    "dataOrigin": "官网公开案例+AI补全",
+    "publicCaseUrl": "https://www.oppein.cn/homematch/551",
+    "publicVerifiedFields": "案例标题;案例URL;主图URL;面积(标题显式);户型(标题显式)",
+    "aiGeneratedFields": "城市;家庭结构;总预算;标准风格映射;配色;材质;收纳;灯光;成交标签;修改次数;满意度;交期;风险",
+    "region": "华南",
+    "city": "广州",
+    "layout": "两房两厅",
+    "areaM2": 78,
+    "mainStyle": "现代原木",
+    "secondaryStyle": "自然北欧",
+    "ambience": "温暖松弛",
+    "budgetMin": 162000,
+    "budgetMax": 198000,
+    "budgetTotal": 180000,
+    "householdType": "新婚夫妻",
+    "specialNeeds": [
+      "强收纳",
+      "易清洁"
+    ],
+    "primaryColors": [
+      "米白",
+      "浅橡木",
+      "暖灰"
+    ],
+    "materials": [
+      "木纹板",
+      "哑光板",
+      "织物"
+    ],
+    "storageClosedRatio": 0.8200000000000001,
+    "lightingPreference": "暖光无主灯",
+    "simulatedTransactionStatus": "AI模拟已成交标签",
+    "transactionEvidence": "无",
+    "revisionCount": 1,
+    "satisfaction5": 4,
+    "deliveryDays": 67,
+    "riskTags": [
+      "预算接近上限",
+      "跨品类交期"
+    ],
+    "displayRight": "仅限内部研究/原页面访问",
+    "trainingRight": "否（未获训练授权）",
+    "anonymized": true,
+    "imageStatus": "官网公开主图URL（不嵌入、不再分发）",
+    "image": null,
+    "sourceUrl": null
+  },
+  {
+    "id": "OP-PUB-026",
+    "title": "治愈系简欧风全家和乐三居",
+    "dataOrigin": "官网公开案例+AI补全",
+    "publicCaseUrl": "https://www.oppein.cn/homematch/546",
+    "publicVerifiedFields": "案例标题;案例URL;主图URL;户型(标题显式)",
+    "aiGeneratedFields": "城市;家庭结构;总预算;标准风格映射;配色;材质;收纳;灯光;成交标签;修改次数;满意度;交期;风险",
+    "region": "华南",
+    "city": "深圳",
+    "layout": "三房两厅",
+    "areaM2": 105,
+    "mainStyle": "奶油风",
+    "secondaryStyle": "柔和治愈",
+    "ambience": "温馨柔和",
+    "budgetMin": 190000,
+    "budgetMax": 232000,
+    "budgetTotal": 211000,
+    "householdType": "夫妻+2名儿童",
+    "specialNeeds": [
+      "儿童安全",
+      "成长收纳"
+    ],
+    "primaryColors": [
+      "奶油白",
+      "浅咖",
+      "杏色"
+    ],
+    "materials": [
+      "肤感板",
+      "柔光砖",
+      "织物"
+    ],
+    "storageClosedRatio": 0.76,
+    "lightingPreference": "暖光混合照明",
+    "simulatedTransactionStatus": "AI模拟已成交标签",
+    "transactionEvidence": "无",
+    "revisionCount": 2,
+    "satisfaction5": 4.15,
+    "deliveryDays": 72,
+    "riskTags": [
+      "图片与落地材质需复核"
+    ],
+    "displayRight": "仅限内部研究/原页面访问",
+    "trainingRight": "否（未获训练授权）",
+    "anonymized": true,
+    "imageStatus": "官网公开主图URL（不嵌入、不再分发）",
+    "image": null,
+    "sourceUrl": null
+  },
+  {
+    "id": "OP-PUB-027",
+    "title": "120㎡简欧轻奢主义三居",
+    "dataOrigin": "官网公开案例+AI补全",
+    "publicCaseUrl": "https://www.oppein.cn/homematch/505",
+    "publicVerifiedFields": "案例标题;案例URL;主图URL;面积(标题显式);户型(标题显式)",
+    "aiGeneratedFields": "城市;家庭结构;总预算;标准风格映射;配色;材质;收纳;灯光;成交标签;修改次数;满意度;交期;风险",
+    "region": "华南",
+    "city": "佛山",
+    "layout": "三房两厅",
+    "areaM2": 120,
+    "mainStyle": "现代轻奢",
+    "secondaryStyle": "意式轻奢",
+    "ambience": "沉稳精致",
+    "budgetMin": 252000,
+    "budgetMax": 308000,
+    "budgetTotal": 280000,
+    "householdType": "三代同堂",
+    "specialNeeds": [
+      "适老",
+      "夜间照明",
+      "低位收纳"
+    ],
+    "primaryColors": [
+      "暖灰",
+      "香槟金",
+      "深木"
+    ],
+    "materials": [
+      "岩板",
+      "金属",
+      "玻璃",
+      "肤感板"
+    ],
+    "storageClosedRatio": 0.7,
+    "lightingPreference": "无主灯+重点照明",
+    "simulatedTransactionStatus": "AI模拟已成交标签",
+    "transactionEvidence": "无",
+    "revisionCount": 3,
+    "satisfaction5": 4.3,
+    "deliveryDays": 77,
+    "riskTags": [
+      "图片与落地材质需复核"
+    ],
+    "displayRight": "仅限内部研究/原页面访问",
+    "trainingRight": "否（未获训练授权）",
+    "anonymized": true,
+    "imageStatus": "官网公开主图URL（不嵌入、不再分发）",
+    "image": null,
+    "sourceUrl": null
+  },
+  {
+    "id": "OP-PUB-028",
+    "title": "100㎡两居完美利用墙面空间",
+    "dataOrigin": "官网公开案例+AI补全",
+    "publicCaseUrl": "https://www.oppein.cn/homematch/496",
+    "publicVerifiedFields": "案例标题;案例URL;主图URL;面积(标题显式);户型(标题显式)",
+    "aiGeneratedFields": "城市;家庭结构;总预算;标准风格映射;配色;材质;收纳;灯光;成交标签;修改次数;满意度;交期;风险",
+    "region": "华南",
+    "city": "东莞",
+    "layout": "两房两厅",
+    "areaM2": 100,
+    "mainStyle": "现代简约",
+    "secondaryStyle": "极简",
+    "ambience": "明亮有序",
+    "budgetMin": 182000,
+    "budgetMax": 222000,
+    "budgetTotal": 202000,
+    "householdType": "新婚夫妻",
+    "specialNeeds": [
+      "强收纳",
+      "易清洁"
+    ],
+    "primaryColors": [
+      "米白",
+      "浅灰",
+      "木色"
+    ],
+    "materials": [
+      "哑光板",
+      "岩板",
+      "玻璃"
+    ],
+    "storageClosedRatio": 0.82,
+    "lightingPreference": "混合照明",
+    "simulatedTransactionStatus": "AI模拟已成交标签",
+    "transactionEvidence": "无",
+    "revisionCount": 4,
+    "satisfaction5": 4.45,
+    "deliveryDays": 82,
+    "riskTags": [
+      "图片与落地材质需复核"
+    ],
+    "displayRight": "仅限内部研究/原页面访问",
+    "trainingRight": "否（未获训练授权）",
+    "anonymized": true,
+    "imageStatus": "官网公开主图URL（不嵌入、不再分发）",
+    "image": null,
+    "sourceUrl": null
+  },
+  {
+    "id": "OP-PUB-029",
+    "title": "巧收纳77.06㎡两居",
+    "dataOrigin": "官网公开案例+AI补全",
+    "publicCaseUrl": "https://www.oppein.cn/homematch/491",
+    "publicVerifiedFields": "案例标题;案例URL;主图URL;面积(标题显式);户型(标题显式);详情页抽查",
+    "aiGeneratedFields": "城市;家庭结构;总预算;标准风格映射;配色;材质;收纳;灯光;成交标签;修改次数;满意度;交期;风险",
+    "region": "华南",
+    "city": "珠海",
+    "layout": "两房两厅",
+    "areaM2": 77.06,
+    "mainStyle": "现代简约",
+    "secondaryStyle": "极简",
+    "ambience": "明亮有序",
+    "budgetMin": 148000,
+    "budgetMax": 180000,
+    "budgetTotal": 164000,
+    "householdType": "夫妻+1名儿童",
+    "specialNeeds": [
+      "儿童安全",
+      "成长收纳"
+    ],
+    "primaryColors": [
+      "米白",
+      "浅灰",
+      "木色"
+    ],
+    "materials": [
+      "哑光板",
+      "岩板",
+      "玻璃"
+    ],
+    "storageClosedRatio": 0.84,
+    "lightingPreference": "混合照明",
+    "simulatedTransactionStatus": "AI模拟已成交标签",
+    "transactionEvidence": "无",
+    "revisionCount": 1,
+    "satisfaction5": 4.6,
+    "deliveryDays": 52,
+    "riskTags": [
+      "预算接近上限",
+      "跨品类交期"
+    ],
+    "displayRight": "仅限内部研究/原页面访问",
+    "trainingRight": "否（未获训练授权）",
+    "anonymized": true,
+    "imageStatus": "官网公开主图URL（不嵌入、不再分发）",
+    "image": null,
+    "sourceUrl": null
+  },
+  {
+    "id": "OP-PUB-030",
+    "title": "一居60㎡高规格实用家装",
+    "dataOrigin": "官网公开案例+AI补全",
+    "publicCaseUrl": "https://www.oppein.cn/homematch/486",
+    "publicVerifiedFields": "案例标题;案例URL;主图URL;面积(标题显式);户型(标题显式)",
+    "aiGeneratedFields": "城市;家庭结构;总预算;标准风格映射;配色;材质;收纳;灯光;成交标签;修改次数;满意度;交期;风险",
+    "region": "华南",
+    "city": "惠州",
+    "layout": "一房一厅",
+    "areaM2": 60,
+    "mainStyle": "混合",
+    "secondaryStyle": "跨风格混搭",
+    "ambience": "个性丰富",
+    "budgetMin": 132000,
+    "budgetMax": 162000,
+    "budgetTotal": 147000,
+    "householdType": "新婚夫妻",
+    "specialNeeds": [
+      "强收纳",
+      "易清洁"
+    ],
+    "primaryColors": [
+      "米白",
+      "木色",
+      "主题跳色"
+    ],
+    "materials": [
+      "木纹板",
+      "织物",
+      "金属"
+    ],
+    "storageClosedRatio": 0.7200000000000001,
+    "lightingPreference": "按场景分区照明",
+    "simulatedTransactionStatus": "AI模拟已成交标签",
+    "transactionEvidence": "无",
+    "revisionCount": 2,
+    "satisfaction5": 4.75,
+    "deliveryDays": 57,
+    "riskTags": [
+      "图片与落地材质需复核"
+    ],
+    "displayRight": "仅限内部研究/原页面访问",
+    "trainingRight": "否（未获训练授权）",
+    "anonymized": true,
+    "imageStatus": "官网公开主图URL（不嵌入、不再分发）",
+    "image": null,
+    "sourceUrl": null
+  },
+  {
+    "id": "OP-PUB-031",
+    "title": "邂逅古典 雅韵两居",
+    "dataOrigin": "官网公开案例+AI补全",
+    "publicCaseUrl": "https://www.oppein.cn/homematch/477",
+    "publicVerifiedFields": "案例标题;案例URL;主图URL;户型(标题显式)",
+    "aiGeneratedFields": "城市;家庭结构;总预算;标准风格映射;配色;材质;收纳;灯光;成交标签;修改次数;满意度;交期;风险",
+    "region": "华南",
+    "city": "广州",
+    "layout": "两房两厅",
+    "areaM2": 76,
+    "mainStyle": "混合",
+    "secondaryStyle": "跨风格混搭",
+    "ambience": "个性丰富",
+    "budgetMin": 140000,
+    "budgetMax": 172000,
+    "budgetTotal": 156000,
+    "householdType": "新婚夫妻",
+    "specialNeeds": [
+      "强收纳",
+      "易清洁"
+    ],
+    "primaryColors": [
+      "米白",
+      "木色",
+      "主题跳色"
+    ],
+    "materials": [
+      "木纹板",
+      "织物",
+      "金属"
+    ],
+    "storageClosedRatio": 0.64,
+    "lightingPreference": "按场景分区照明",
+    "simulatedTransactionStatus": "AI模拟已成交标签",
+    "transactionEvidence": "无",
+    "revisionCount": 3,
+    "satisfaction5": 4,
+    "deliveryDays": 62,
+    "riskTags": [
+      "图片与落地材质需复核"
+    ],
+    "displayRight": "仅限内部研究/原页面访问",
+    "trainingRight": "否（未获训练授权）",
+    "anonymized": true,
+    "imageStatus": "官网公开主图URL（不嵌入、不再分发）",
+    "image": null,
+    "sourceUrl": null
+  },
+  {
+    "id": "OP-PUB-032",
+    "title": "春风入户81.01㎡舒适两居",
+    "dataOrigin": "官网公开案例+AI补全",
+    "publicCaseUrl": "https://www.oppein.cn/homematch/450",
+    "publicVerifiedFields": "案例标题;案例URL;主图URL;面积(标题显式);户型(标题显式)",
+    "aiGeneratedFields": "城市;家庭结构;总预算;标准风格映射;配色;材质;收纳;灯光;成交标签;修改次数;满意度;交期;风险",
+    "region": "华南",
+    "city": "深圳",
+    "layout": "两房两厅",
+    "areaM2": 81.01,
+    "mainStyle": "奶油风",
+    "secondaryStyle": "柔和治愈",
+    "ambience": "温馨柔和",
+    "budgetMin": 152000,
+    "budgetMax": 186000,
+    "budgetTotal": 169000,
+    "householdType": "夫妻+1名儿童",
+    "specialNeeds": [
+      "儿童安全",
+      "成长收纳"
+    ],
+    "primaryColors": [
+      "奶油白",
+      "浅咖",
+      "杏色"
+    ],
+    "materials": [
+      "肤感板",
+      "柔光砖",
+      "织物"
+    ],
+    "storageClosedRatio": 0.78,
+    "lightingPreference": "暖光混合照明",
+    "simulatedTransactionStatus": "AI模拟已成交标签",
+    "transactionEvidence": "无",
+    "revisionCount": 4,
+    "satisfaction5": 4.15,
+    "deliveryDays": 67,
+    "riskTags": [
+      "图片与落地材质需复核"
+    ],
+    "displayRight": "仅限内部研究/原页面访问",
+    "trainingRight": "否（未获训练授权）",
+    "anonymized": true,
+    "imageStatus": "官网公开主图URL（不嵌入、不再分发）",
+    "image": null,
+    "sourceUrl": null
+  },
+  {
+    "id": "OP-PUB-033",
+    "title": "49㎡创意生活浪漫一居",
+    "dataOrigin": "官网公开案例+AI补全",
+    "publicCaseUrl": "https://www.oppein.cn/homematch/443",
+    "publicVerifiedFields": "案例标题;案例URL;主图URL;面积(标题显式);户型(标题显式)",
+    "aiGeneratedFields": "城市;家庭结构;总预算;标准风格映射;配色;材质;收纳;灯光;成交标签;修改次数;满意度;交期;风险",
+    "region": "华南",
+    "city": "佛山",
+    "layout": "一房一厅",
+    "areaM2": 49,
+    "mainStyle": "奶油风",
+    "secondaryStyle": "柔和治愈",
+    "ambience": "温馨柔和",
+    "budgetMin": 100000,
+    "budgetMax": 122000,
+    "budgetTotal": 111000,
+    "householdType": "单身+宠物",
+    "specialNeeds": [
+      "适宠",
+      "耐磨易清洁"
+    ],
+    "primaryColors": [
+      "奶油白",
+      "浅咖",
+      "杏色"
+    ],
+    "materials": [
+      "肤感板",
+      "柔光砖",
+      "织物"
+    ],
+    "storageClosedRatio": 0.8,
+    "lightingPreference": "暖光混合照明",
+    "simulatedTransactionStatus": "AI模拟已成交标签",
+    "transactionEvidence": "无",
+    "revisionCount": 1,
+    "satisfaction5": 4.3,
+    "deliveryDays": 72,
+    "riskTags": [
+      "预算接近上限",
+      "跨品类交期"
+    ],
+    "displayRight": "仅限内部研究/原页面访问",
+    "trainingRight": "否（未获训练授权）",
+    "anonymized": true,
+    "imageStatus": "官网公开主图URL（不嵌入、不再分发）",
+    "image": null,
+    "sourceUrl": null
+  },
+  {
+    "id": "OP-PUB-034",
+    "title": "95㎡两居淡泊宁静的家",
+    "dataOrigin": "官网公开案例+AI补全",
+    "publicCaseUrl": "https://www.oppein.cn/homematch/363",
+    "publicVerifiedFields": "案例标题;案例URL;主图URL;面积(标题显式);户型(标题显式)",
+    "aiGeneratedFields": "城市;家庭结构;总预算;标准风格映射;配色;材质;收纳;灯光;成交标签;修改次数;满意度;交期;风险",
+    "region": "华南",
+    "city": "东莞",
+    "layout": "两房两厅",
+    "areaM2": 95,
+    "mainStyle": "混合",
+    "secondaryStyle": "跨风格混搭",
+    "ambience": "个性丰富",
+    "budgetMin": 192000,
+    "budgetMax": 234000,
+    "budgetTotal": 213000,
+    "householdType": "新婚夫妻",
+    "specialNeeds": [
+      "强收纳",
+      "易清洁"
+    ],
+    "primaryColors": [
+      "米白",
+      "木色",
+      "主题跳色"
+    ],
+    "materials": [
+      "木纹板",
+      "织物",
+      "金属"
+    ],
+    "storageClosedRatio": 0.7000000000000001,
+    "lightingPreference": "按场景分区照明",
+    "simulatedTransactionStatus": "AI模拟已成交标签",
+    "transactionEvidence": "无",
+    "revisionCount": 2,
+    "satisfaction5": 4.45,
+    "deliveryDays": 77,
+    "riskTags": [
+      "图片与落地材质需复核"
+    ],
+    "displayRight": "仅限内部研究/原页面访问",
+    "trainingRight": "否（未获训练授权）",
+    "anonymized": true,
+    "imageStatus": "官网公开主图URL（不嵌入、不再分发）",
+    "image": null,
+    "sourceUrl": null
+  },
+  {
+    "id": "OP-PUB-035",
+    "title": "70㎡小清新温馨两居",
+    "dataOrigin": "官网公开案例+AI补全",
+    "publicCaseUrl": "https://www.oppein.cn/homematch/348",
+    "publicVerifiedFields": "案例标题;案例URL;主图URL;面积(标题显式);户型(标题显式)",
+    "aiGeneratedFields": "城市;家庭结构;总预算;标准风格映射;配色;材质;收纳;灯光;成交标签;修改次数;满意度;交期;风险",
+    "region": "华南",
+    "city": "珠海",
+    "layout": "两房两厅",
+    "areaM2": 70,
+    "mainStyle": "奶油风",
+    "secondaryStyle": "柔和治愈",
+    "ambience": "温馨柔和",
+    "budgetMin": 149000,
+    "budgetMax": 182000,
+    "budgetTotal": 165000,
+    "householdType": "夫妻+1名儿童",
+    "specialNeeds": [
+      "儿童安全",
+      "成长收纳"
+    ],
+    "primaryColors": [
+      "奶油白",
+      "浅咖",
+      "杏色"
+    ],
+    "materials": [
+      "肤感板",
+      "柔光砖",
+      "织物"
+    ],
+    "storageClosedRatio": 0.8400000000000001,
+    "lightingPreference": "暖光混合照明",
+    "simulatedTransactionStatus": "AI模拟已成交标签",
+    "transactionEvidence": "无",
+    "revisionCount": 3,
+    "satisfaction5": 4.6,
+    "deliveryDays": 82,
+    "riskTags": [
+      "图片与落地材质需复核"
+    ],
+    "displayRight": "仅限内部研究/原页面访问",
+    "trainingRight": "否（未获训练授权）",
+    "anonymized": true,
+    "imageStatus": "官网公开主图URL（不嵌入、不再分发）",
+    "image": null,
+    "sourceUrl": null
+  },
+  {
+    "id": "OP-PUB-036",
+    "title": "浪漫地中海风格三居",
+    "dataOrigin": "官网公开案例+AI补全",
+    "publicCaseUrl": "https://www.oppein.cn/homematch/289",
+    "publicVerifiedFields": "案例标题;案例URL;主图URL;户型(标题显式)",
+    "aiGeneratedFields": "城市;家庭结构;总预算;标准风格映射;配色;材质;收纳;灯光;成交标签;修改次数;满意度;交期;风险",
+    "region": "华南",
+    "city": "惠州",
+    "layout": "三房两厅",
+    "areaM2": 107,
+    "mainStyle": "奶油风",
+    "secondaryStyle": "柔和治愈",
+    "ambience": "温馨柔和",
+    "budgetMin": 194000,
+    "budgetMax": 237000,
+    "budgetTotal": 215000,
+    "householdType": "夫妻+老人",
+    "specialNeeds": [
+      "适老",
+      "夜间照明",
+      "低位收纳"
+    ],
+    "primaryColors": [
+      "奶油白",
+      "浅咖",
+      "杏色"
+    ],
+    "materials": [
+      "肤感板",
+      "柔光砖",
+      "织物"
+    ],
+    "storageClosedRatio": 0.76,
+    "lightingPreference": "暖光混合照明",
+    "simulatedTransactionStatus": "AI模拟已成交标签",
+    "transactionEvidence": "无",
+    "revisionCount": 4,
+    "satisfaction5": 4.75,
+    "deliveryDays": 52,
+    "riskTags": [
+      "图片与落地材质需复核"
+    ],
+    "displayRight": "仅限内部研究/原页面访问",
+    "trainingRight": "否（未获训练授权）",
+    "anonymized": true,
+    "imageStatus": "官网公开主图URL（不嵌入、不再分发）",
+    "image": null,
+    "sourceUrl": null
+  },
+  {
+    "id": "OP-PUB-037",
+    "title": "80㎡三居休闲自然之家",
+    "dataOrigin": "官网公开案例+AI补全",
+    "publicCaseUrl": "https://www.oppein.cn/homematch/278",
+    "publicVerifiedFields": "案例标题;案例URL;主图URL;面积(标题显式);户型(标题显式)",
+    "aiGeneratedFields": "城市;家庭结构;总预算;标准风格映射;配色;材质;收纳;灯光;成交标签;修改次数;满意度;交期;风险",
+    "region": "华南",
+    "city": "广州",
+    "layout": "三房两厅",
+    "areaM2": 80,
+    "mainStyle": "现代原木",
+    "secondaryStyle": "自然北欧",
+    "ambience": "温暖松弛",
+    "budgetMin": 149000,
+    "budgetMax": 183000,
+    "budgetTotal": 166000,
+    "householdType": "夫妻+1名儿童",
+    "specialNeeds": [
+      "儿童安全",
+      "成长收纳"
+    ],
+    "primaryColors": [
+      "米白",
+      "浅橡木",
+      "暖灰"
+    ],
+    "materials": [
+      "木纹板",
+      "哑光板",
+      "织物"
+    ],
+    "storageClosedRatio": 0.76,
+    "lightingPreference": "暖光无主灯",
+    "simulatedTransactionStatus": "AI模拟已成交标签",
+    "transactionEvidence": "无",
+    "revisionCount": 1,
+    "satisfaction5": 4,
+    "deliveryDays": 57,
+    "riskTags": [
+      "预算接近上限",
+      "跨品类交期"
+    ],
+    "displayRight": "仅限内部研究/原页面访问",
+    "trainingRight": "否（未获训练授权）",
+    "anonymized": true,
+    "imageStatus": "官网公开主图URL（不嵌入、不再分发）",
+    "image": null,
+    "sourceUrl": null
+  },
+  {
+    "id": "OP-PUB-038",
+    "title": "39㎡时尚混搭单身公寓",
+    "dataOrigin": "官网公开案例+AI补全",
+    "publicCaseUrl": "https://www.oppein.cn/homematch/244",
+    "publicVerifiedFields": "案例标题;案例URL;主图URL;面积(标题显式);详情页抽查",
+    "aiGeneratedFields": "城市;家庭结构;总预算;标准风格映射;配色;材质;收纳;灯光;成交标签;修改次数;满意度;交期;风险",
+    "region": "华南",
+    "city": "深圳",
+    "layout": "一房一厅",
+    "areaM2": 39,
+    "mainStyle": "现代简约",
+    "secondaryStyle": "极简",
+    "ambience": "明亮有序",
+    "budgetMin": 81000,
+    "budgetMax": 99000,
+    "budgetTotal": 90000,
+    "householdType": "新婚夫妻",
+    "specialNeeds": [
+      "强收纳",
+      "易清洁"
+    ],
+    "primaryColors": [
+      "米白",
+      "浅灰",
+      "木色"
+    ],
+    "materials": [
+      "哑光板",
+      "岩板",
+      "玻璃"
+    ],
+    "storageClosedRatio": 0.82,
+    "lightingPreference": "混合照明",
+    "simulatedTransactionStatus": "AI模拟已成交标签",
+    "transactionEvidence": "无",
+    "revisionCount": 2,
+    "satisfaction5": 4.15,
+    "deliveryDays": 62,
+    "riskTags": [
+      "图片与落地材质需复核"
+    ],
+    "displayRight": "仅限内部研究/原页面访问",
+    "trainingRight": "否（未获训练授权）",
+    "anonymized": true,
+    "imageStatus": "官网公开主图URL（不嵌入、不再分发）",
+    "image": null,
+    "sourceUrl": null
+  },
+  {
+    "id": "OP-PUB-039",
+    "title": "85㎡中式古朴素雅三居",
+    "dataOrigin": "官网公开案例+AI补全",
+    "publicCaseUrl": "https://www.oppein.cn/homematch/221",
+    "publicVerifiedFields": "案例标题;案例URL;主图URL;面积(标题显式);户型(标题显式)",
+    "aiGeneratedFields": "城市;家庭结构;总预算;标准风格映射;配色;材质;收纳;灯光;成交标签;修改次数;满意度;交期;风险",
+    "region": "华南",
+    "city": "佛山",
+    "layout": "三房两厅",
+    "areaM2": 85,
+    "mainStyle": "新中式",
+    "secondaryStyle": "东方雅致",
+    "ambience": "安静雅致",
+    "budgetMin": 185000,
+    "budgetMax": 226000,
+    "budgetTotal": 205000,
+    "householdType": "三代同堂",
+    "specialNeeds": [
+      "适老",
+      "夜间照明",
+      "低位收纳"
+    ],
+    "primaryColors": [
+      "米白",
+      "胡桃木",
+      "黛灰"
+    ],
+    "materials": [
+      "木纹板",
+      "格栅",
+      "岩板",
+      "黄铜"
+    ],
+    "storageClosedRatio": 0.78,
+    "lightingPreference": "暖光混合照明",
+    "simulatedTransactionStatus": "AI模拟已成交标签",
+    "transactionEvidence": "无",
+    "revisionCount": 3,
+    "satisfaction5": 4.3,
+    "deliveryDays": 67,
+    "riskTags": [
+      "图片与落地材质需复核"
+    ],
+    "displayRight": "仅限内部研究/原页面访问",
+    "trainingRight": "否（未获训练授权）",
+    "anonymized": true,
+    "imageStatus": "官网公开主图URL（不嵌入、不再分发）",
+    "image": null,
+    "sourceUrl": null
+  },
+  {
+    "id": "OP-PUB-040",
+    "title": "91㎡三居欧式田园温馨之家",
+    "dataOrigin": "官网公开案例+AI补全",
+    "publicCaseUrl": "https://www.oppein.cn/homematch/215",
+    "publicVerifiedFields": "案例标题;案例URL;主图URL;面积(标题显式);户型(标题显式)",
+    "aiGeneratedFields": "城市;家庭结构;总预算;标准风格映射;配色;材质;收纳;灯光;成交标签;修改次数;满意度;交期;风险",
+    "region": "华南",
+    "city": "东莞",
+    "layout": "三房两厅",
+    "areaM2": 91,
+    "mainStyle": "奶油风",
+    "secondaryStyle": "柔和治愈",
+    "ambience": "温馨柔和",
+    "budgetMin": 186000,
+    "budgetMax": 228000,
+    "budgetTotal": 207000,
+    "householdType": "夫妻+老人",
+    "specialNeeds": [
+      "适老",
+      "夜间照明",
+      "低位收纳"
+    ],
+    "primaryColors": [
+      "奶油白",
+      "浅咖",
+      "杏色"
+    ],
+    "materials": [
+      "肤感板",
+      "柔光砖",
+      "织物"
+    ],
+    "storageClosedRatio": 0.8400000000000001,
+    "lightingPreference": "暖光混合照明",
+    "simulatedTransactionStatus": "AI模拟已成交标签",
+    "transactionEvidence": "无",
+    "revisionCount": 4,
+    "satisfaction5": 4.45,
+    "deliveryDays": 72,
+    "riskTags": [
+      "图片与落地材质需复核"
+    ],
+    "displayRight": "仅限内部研究/原页面访问",
+    "trainingRight": "否（未获训练授权）",
+    "anonymized": true,
+    "imageStatus": "官网公开主图URL（不嵌入、不再分发）",
+    "image": null,
+    "sourceUrl": null
+  },
+  {
+    "id": "OP-PUB-041",
+    "title": "123㎡温馨舒适的三居之家",
+    "dataOrigin": "官网公开案例+AI补全",
+    "publicCaseUrl": "https://www.oppein.cn/homematch/203",
+    "publicVerifiedFields": "案例标题;案例URL;主图URL;面积(标题显式);户型(标题显式)",
+    "aiGeneratedFields": "城市;家庭结构;总预算;标准风格映射;配色;材质;收纳;灯光;成交标签;修改次数;满意度;交期;风险",
+    "region": "华南",
+    "city": "珠海",
+    "layout": "三房两厅",
+    "areaM2": 123,
+    "mainStyle": "奶油风",
+    "secondaryStyle": "柔和治愈",
+    "ambience": "温馨柔和",
+    "budgetMin": 223000,
+    "budgetMax": 273000,
+    "budgetTotal": 248000,
+    "householdType": "夫妻+1名儿童",
+    "specialNeeds": [
+      "儿童安全",
+      "成长收纳"
+    ],
+    "primaryColors": [
+      "奶油白",
+      "浅咖",
+      "杏色"
+    ],
+    "materials": [
+      "肤感板",
+      "柔光砖",
+      "织物"
+    ],
+    "storageClosedRatio": 0.76,
+    "lightingPreference": "暖光混合照明",
+    "simulatedTransactionStatus": "AI模拟已成交标签",
+    "transactionEvidence": "无",
+    "revisionCount": 1,
+    "satisfaction5": 4.6,
+    "deliveryDays": 77,
+    "riskTags": [
+      "预算接近上限",
+      "跨品类交期"
+    ],
+    "displayRight": "仅限内部研究/原页面访问",
+    "trainingRight": "否（未获训练授权）",
+    "anonymized": true,
+    "imageStatus": "官网公开主图URL（不嵌入、不再分发）",
+    "image": null,
+    "sourceUrl": null
+  },
+  {
+    "id": "OP-PUB-042",
+    "title": "85㎡两居浪漫地中海风格之家",
+    "dataOrigin": "官网公开案例+AI补全",
+    "publicCaseUrl": "https://www.oppein.cn/homematch/186",
+    "publicVerifiedFields": "案例标题;案例URL;主图URL;面积(标题显式);户型(标题显式)",
+    "aiGeneratedFields": "城市;家庭结构;总预算;标准风格映射;配色;材质;收纳;灯光;成交标签;修改次数;满意度;交期;风险",
+    "region": "华南",
+    "city": "惠州",
+    "layout": "两房两厅",
+    "areaM2": 85,
+    "mainStyle": "奶油风",
+    "secondaryStyle": "柔和治愈",
+    "ambience": "温馨柔和",
+    "budgetMin": 159000,
+    "budgetMax": 195000,
+    "budgetTotal": 177000,
+    "householdType": "夫妻+宠物",
+    "specialNeeds": [
+      "适宠",
+      "耐磨易清洁"
+    ],
+    "primaryColors": [
+      "奶油白",
+      "浅咖",
+      "杏色"
+    ],
+    "materials": [
+      "肤感板",
+      "柔光砖",
+      "织物"
+    ],
+    "storageClosedRatio": 0.78,
+    "lightingPreference": "暖光混合照明",
+    "simulatedTransactionStatus": "AI模拟已成交标签",
+    "transactionEvidence": "无",
+    "revisionCount": 2,
+    "satisfaction5": 4.75,
+    "deliveryDays": 82,
+    "riskTags": [
+      "图片与落地材质需复核"
+    ],
+    "displayRight": "仅限内部研究/原页面访问",
+    "trainingRight": "否（未获训练授权）",
+    "anonymized": true,
+    "imageStatus": "官网公开主图URL（不嵌入、不再分发）",
+    "image": null,
+    "sourceUrl": null
+  },
+  {
+    "id": "OP-PUB-043",
+    "title": "回归自然的朴素之家",
+    "dataOrigin": "官网公开案例+AI补全",
+    "publicCaseUrl": "https://www.oppein.cn/homematch/164",
+    "publicVerifiedFields": "案例标题;案例URL;主图URL",
+    "aiGeneratedFields": "城市;家庭结构;总预算;标准风格映射;配色;材质;收纳;灯光;成交标签;修改次数;满意度;交期;风险",
+    "region": "华南",
+    "city": "广州",
+    "layout": "三房两厅",
+    "areaM2": 105,
+    "mainStyle": "现代原木",
+    "secondaryStyle": "自然北欧",
+    "ambience": "温暖松弛",
+    "budgetMin": 199000,
+    "budgetMax": 243000,
+    "budgetTotal": 221000,
+    "householdType": "三代同堂",
+    "specialNeeds": [
+      "适老",
+      "夜间照明",
+      "低位收纳"
+    ],
+    "primaryColors": [
+      "米白",
+      "浅橡木",
+      "暖灰"
+    ],
+    "materials": [
+      "木纹板",
+      "哑光板",
+      "织物"
+    ],
+    "storageClosedRatio": 0.78,
+    "lightingPreference": "暖光无主灯",
+    "simulatedTransactionStatus": "AI模拟已成交标签",
+    "transactionEvidence": "无",
+    "revisionCount": 3,
+    "satisfaction5": 4,
+    "deliveryDays": 52,
+    "riskTags": [
+      "图片与落地材质需复核"
+    ],
+    "displayRight": "仅限内部研究/原页面访问",
+    "trainingRight": "否（未获训练授权）",
+    "anonymized": true,
+    "imageStatus": "官网公开主图URL（不嵌入、不再分发）",
+    "image": null,
+    "sourceUrl": null
+  },
+  {
+    "id": "OP-PUB-044",
+    "title": "81㎡别致温馨小二居",
+    "dataOrigin": "官网公开案例+AI补全",
+    "publicCaseUrl": "https://www.oppein.cn/homematch/91",
+    "publicVerifiedFields": "案例标题;案例URL;主图URL;面积(标题显式);户型(标题显式)",
+    "aiGeneratedFields": "城市;家庭结构;总预算;标准风格映射;配色;材质;收纳;灯光;成交标签;修改次数;满意度;交期;风险",
+    "region": "华南",
+    "city": "深圳",
+    "layout": "两房两厅",
+    "areaM2": 81,
+    "mainStyle": "奶油风",
+    "secondaryStyle": "柔和治愈",
+    "ambience": "温馨柔和",
+    "budgetMin": 163000,
+    "budgetMax": 199000,
+    "budgetTotal": 181000,
+    "householdType": "夫妻+1名儿童",
+    "specialNeeds": [
+      "儿童安全",
+      "成长收纳"
+    ],
+    "primaryColors": [
+      "奶油白",
+      "浅咖",
+      "杏色"
+    ],
+    "materials": [
+      "肤感板",
+      "柔光砖",
+      "织物"
+    ],
+    "storageClosedRatio": 0.8200000000000001,
+    "lightingPreference": "暖光混合照明",
+    "simulatedTransactionStatus": "AI模拟已成交标签",
+    "transactionEvidence": "无",
+    "revisionCount": 4,
+    "satisfaction5": 4.15,
+    "deliveryDays": 57,
+    "riskTags": [
+      "图片与落地材质需复核"
+    ],
+    "displayRight": "仅限内部研究/原页面访问",
+    "trainingRight": "否（未获训练授权）",
+    "anonymized": true,
+    "imageStatus": "官网公开主图URL（不嵌入、不再分发）",
+    "image": null,
+    "sourceUrl": null
+  },
+  {
+    "id": "OP-PUB-045",
+    "title": "精致公寓 现代时尚完美结合",
+    "dataOrigin": "官网公开案例+AI补全",
+    "publicCaseUrl": "https://www.oppein.cn/homematch/67",
+    "publicVerifiedFields": "案例标题;案例URL;主图URL",
+    "aiGeneratedFields": "城市;家庭结构;总预算;标准风格映射;配色;材质;收纳;灯光;成交标签;修改次数;满意度;交期;风险",
+    "region": "华南",
+    "city": "佛山",
+    "layout": "一房一厅",
+    "areaM2": 46,
+    "mainStyle": "现代轻奢",
+    "secondaryStyle": "意式轻奢",
+    "ambience": "沉稳精致",
+    "budgetMin": 116000,
+    "budgetMax": 142000,
+    "budgetTotal": 129000,
+    "householdType": "单身+宠物",
+    "specialNeeds": [
+      "适宠",
+      "耐磨易清洁"
+    ],
+    "primaryColors": [
+      "暖灰",
+      "香槟金",
+      "深木"
+    ],
+    "materials": [
+      "岩板",
+      "金属",
+      "玻璃",
+      "肤感板"
+    ],
+    "storageClosedRatio": 0.76,
+    "lightingPreference": "无主灯+重点照明",
+    "simulatedTransactionStatus": "AI模拟已成交标签",
+    "transactionEvidence": "无",
+    "revisionCount": 1,
+    "satisfaction5": 4.3,
+    "deliveryDays": 62,
+    "riskTags": [
+      "预算接近上限",
+      "跨品类交期"
+    ],
+    "displayRight": "仅限内部研究/原页面访问",
+    "trainingRight": "否（未获训练授权）",
+    "anonymized": true,
+    "imageStatus": "官网公开主图URL（不嵌入、不再分发）",
+    "image": null,
+    "sourceUrl": null
+  },
+  {
+    "id": "OP-AI-001",
+    "title": "奶咖晨光成长之家",
+    "dataOrigin": "纯AI模拟",
+    "publicCaseUrl": null,
+    "publicVerifiedFields": "无",
+    "aiGeneratedFields": "全部字段（含名称、户型、面积、风格、预算、家庭、配色、材质、成交与交付）",
+    "region": "华南",
+    "city": "东莞",
+    "layout": "三房两厅",
+    "areaM2": 102,
+    "mainStyle": "奶油风",
+    "secondaryStyle": "柔和治愈",
+    "ambience": "温馨柔和",
+    "budgetMin": 190000,
+    "budgetMax": 232000,
+    "budgetTotal": 211000,
+    "householdType": "夫妻+1名儿童",
+    "specialNeeds": [
+      "儿童安全",
+      "成长收纳"
+    ],
+    "primaryColors": [
+      "奶油白",
+      "浅咖",
+      "杏色"
+    ],
+    "materials": [
+      "肤感板",
+      "柔光砖",
+      "织物"
+    ],
+    "storageClosedRatio": 0.76,
+    "lightingPreference": "暖光混合照明",
+    "simulatedTransactionStatus": "AI模拟已成交标签",
+    "transactionEvidence": "无",
+    "revisionCount": 1,
+    "satisfaction5": 4.1,
+    "deliveryDays": 55,
+    "riskTags": [
+      "AI效果图待生成",
+      "预算需线下核价"
+    ],
+    "displayRight": "内部MVP演示",
+    "trainingRight": "可用于MVP规则测试；不可当作真实案例",
+    "anonymized": true,
+    "imageStatus": "待AI生成/待授权素材",
+    "image": "/cases/01_pure_ai_cases/OP-AI-001_奶咖晨光成长之家.png",
+    "sourceUrl": null
+  },
+  {
+    "id": "OP-AI-002",
+    "title": "浅橡木亲子收纳宅",
+    "dataOrigin": "纯AI模拟",
+    "publicCaseUrl": null,
+    "publicVerifiedFields": "无",
+    "aiGeneratedFields": "全部字段（含名称、户型、面积、风格、预算、家庭、配色、材质、成交与交付）",
+    "region": "华南",
+    "city": "珠海",
+    "layout": "三房两厅",
+    "areaM2": 96,
+    "mainStyle": "现代原木",
+    "secondaryStyle": "自然北欧",
+    "ambience": "温暖松弛",
+    "budgetMin": 184000,
+    "budgetMax": 224000,
+    "budgetTotal": 204000,
+    "householdType": "夫妻+1名儿童",
+    "specialNeeds": [
+      "儿童安全",
+      "成长收纳"
+    ],
+    "primaryColors": [
+      "米白",
+      "浅橡木",
+      "暖灰"
+    ],
+    "materials": [
+      "木纹板",
+      "哑光板",
+      "织物"
+    ],
+    "storageClosedRatio": 0.76,
+    "lightingPreference": "暖光无主灯",
+    "simulatedTransactionStatus": "AI模拟已成交标签",
+    "transactionEvidence": "无",
+    "revisionCount": 2,
+    "satisfaction5": 4.25,
+    "deliveryDays": 60,
+    "riskTags": [
+      "全部业务字段待真实数据替换"
+    ],
+    "displayRight": "内部MVP演示",
+    "trainingRight": "可用于MVP规则测试；不可当作真实案例",
+    "anonymized": true,
+    "imageStatus": "待AI生成/待授权素材",
+    "image": "/cases/01_pure_ai_cases/OP-AI-002_浅橡木亲子收纳宅.png",
+    "sourceUrl": null
+  },
+  {
+    "id": "OP-AI-003",
+    "title": "岭南三代同堂雅居",
+    "dataOrigin": "纯AI模拟",
+    "publicCaseUrl": null,
+    "publicVerifiedFields": "无",
+    "aiGeneratedFields": "全部字段（含名称、户型、面积、风格、预算、家庭、配色、材质、成交与交付）",
+    "region": "华南",
+    "city": "惠州",
+    "layout": "四房两厅",
+    "areaM2": 148,
+    "mainStyle": "新中式",
+    "secondaryStyle": "东方雅致",
+    "ambience": "安静雅致",
+    "budgetMin": 314000,
+    "budgetMax": 384000,
+    "budgetTotal": 349000,
+    "householdType": "三代同堂",
+    "specialNeeds": [
+      "适老",
+      "夜间照明",
+      "低位收纳"
+    ],
+    "primaryColors": [
+      "米白",
+      "胡桃木",
+      "黛灰"
+    ],
+    "materials": [
+      "木纹板",
+      "格栅",
+      "岩板",
+      "黄铜"
+    ],
+    "storageClosedRatio": 0.76,
+    "lightingPreference": "暖光混合照明",
+    "simulatedTransactionStatus": "AI模拟已成交标签",
+    "transactionEvidence": "无",
+    "revisionCount": 3,
+    "satisfaction5": 4.3999999999999995,
+    "deliveryDays": 65,
+    "riskTags": [
+      "全部业务字段待真实数据替换"
+    ],
+    "displayRight": "内部MVP演示",
+    "trainingRight": "可用于MVP规则测试；不可当作真实案例",
+    "anonymized": true,
+    "imageStatus": "待AI生成/待授权素材",
+    "image": "/cases/01_pure_ai_cases/OP-AI-003_岭南三代同堂雅居.png",
+    "sourceUrl": null
+  },
+  {
+    "id": "OP-AI-004",
+    "title": "无界客餐厅轻奢宅",
+    "dataOrigin": "纯AI模拟",
+    "publicCaseUrl": null,
+    "publicVerifiedFields": "无",
+    "aiGeneratedFields": "全部字段（含名称、户型、面积、风格、预算、家庭、配色、材质、成交与交付）",
+    "region": "华南",
+    "city": "广州",
+    "layout": "四房两厅",
+    "areaM2": 136,
+    "mainStyle": "现代轻奢",
+    "secondaryStyle": "意式轻奢",
+    "ambience": "沉稳精致",
+    "budgetMin": 305000,
+    "budgetMax": 373000,
+    "budgetTotal": 339000,
+    "householdType": "夫妻+2名儿童",
+    "specialNeeds": [
+      "儿童安全",
+      "成长收纳"
+    ],
+    "primaryColors": [
+      "暖灰",
+      "香槟金",
+      "深木"
+    ],
+    "materials": [
+      "岩板",
+      "金属",
+      "玻璃",
+      "肤感板"
+    ],
+    "storageClosedRatio": 0.74,
+    "lightingPreference": "无主灯+重点照明",
+    "simulatedTransactionStatus": "AI模拟已成交标签",
+    "transactionEvidence": "无",
+    "revisionCount": 4,
+    "satisfaction5": 4.55,
+    "deliveryDays": 70,
+    "riskTags": [
+      "AI效果图待生成",
+      "预算需线下核价"
+    ],
+    "displayRight": "内部MVP演示",
+    "trainingRight": "可用于MVP规则测试；不可当作真实案例",
+    "anonymized": true,
+    "imageStatus": "待AI生成/待授权素材",
+    "image": "/cases/01_pure_ai_cases/OP-AI-004_无界客餐厅轻奢宅.png",
+    "sourceUrl": null
+  },
+  {
+    "id": "OP-AI-005",
+    "title": "双宠友好原木小家",
+    "dataOrigin": "纯AI模拟",
+    "publicCaseUrl": null,
+    "publicVerifiedFields": "无",
+    "aiGeneratedFields": "全部字段（含名称、户型、面积、风格、预算、家庭、配色、材质、成交与交付）",
+    "region": "华南",
+    "city": "深圳",
+    "layout": "两房两厅",
+    "areaM2": 82,
+    "mainStyle": "现代原木",
+    "secondaryStyle": "自然北欧",
+    "ambience": "温暖松弛",
+    "budgetMin": 151000,
+    "budgetMax": 185000,
+    "budgetTotal": 168000,
+    "householdType": "夫妻+宠物",
+    "specialNeeds": [
+      "适宠",
+      "耐磨易清洁"
+    ],
+    "primaryColors": [
+      "米白",
+      "浅橡木",
+      "暖灰"
+    ],
+    "materials": [
+      "木纹板",
+      "哑光板",
+      "织物"
+    ],
+    "storageClosedRatio": 0.8200000000000001,
+    "lightingPreference": "暖光无主灯",
+    "simulatedTransactionStatus": "AI模拟已成交标签",
+    "transactionEvidence": "无",
+    "revisionCount": 1,
+    "satisfaction5": 4.699999999999999,
+    "deliveryDays": 75,
+    "riskTags": [
+      "全部业务字段待真实数据替换"
+    ],
+    "displayRight": "内部MVP演示",
+    "trainingRight": "可用于MVP规则测试；不可当作真实案例",
+    "anonymized": true,
+    "imageStatus": "待AI生成/待授权素材",
+    "image": "/cases/01_pure_ai_cases/OP-AI-005_双宠友好原木小家.png",
+    "sourceUrl": null
+  },
+  {
+    "id": "OP-AI-006",
+    "title": "银发友好暖木居",
+    "dataOrigin": "纯AI模拟",
+    "publicCaseUrl": null,
+    "publicVerifiedFields": "无",
+    "aiGeneratedFields": "全部字段（含名称、户型、面积、风格、预算、家庭、配色、材质、成交与交付）",
+    "region": "华南",
+    "city": "佛山",
+    "layout": "三房两厅",
+    "areaM2": 118,
+    "mainStyle": "现代原木",
+    "secondaryStyle": "自然北欧",
+    "ambience": "温暖松弛",
+    "budgetMin": 224000,
+    "budgetMax": 274000,
+    "budgetTotal": 249000,
+    "householdType": "夫妻+老人",
+    "specialNeeds": [
+      "适老",
+      "夜间照明",
+      "低位收纳"
+    ],
+    "primaryColors": [
+      "米白",
+      "浅橡木",
+      "暖灰"
+    ],
+    "materials": [
+      "木纹板",
+      "哑光板",
+      "织物"
+    ],
+    "storageClosedRatio": 0.74,
+    "lightingPreference": "暖光无主灯",
+    "simulatedTransactionStatus": "AI模拟已成交标签",
+    "transactionEvidence": "无",
+    "revisionCount": 2,
+    "satisfaction5": 4.1,
+    "deliveryDays": 80,
+    "riskTags": [
+      "全部业务字段待真实数据替换"
+    ],
+    "displayRight": "内部MVP演示",
+    "trainingRight": "可用于MVP规则测试；不可当作真实案例",
+    "anonymized": true,
+    "imageStatus": "待AI生成/待授权素材",
+    "image": "/cases/01_pure_ai_cases/OP-AI-006_银发友好暖木居.png",
+    "sourceUrl": null
+  },
+  {
+    "id": "OP-AI-007",
+    "title": "云朵奶油婚房",
+    "dataOrigin": "纯AI模拟",
+    "publicCaseUrl": null,
+    "publicVerifiedFields": "无",
+    "aiGeneratedFields": "全部字段（含名称、户型、面积、风格、预算、家庭、配色、材质、成交与交付）",
+    "region": "华南",
+    "city": "东莞",
+    "layout": "两房两厅",
+    "areaM2": 88,
+    "mainStyle": "奶油风",
+    "secondaryStyle": "柔和治愈",
+    "ambience": "温馨柔和",
+    "budgetMin": 176000,
+    "budgetMax": 216000,
+    "budgetTotal": 196000,
+    "householdType": "新婚夫妻",
+    "specialNeeds": [
+      "强收纳",
+      "易清洁"
+    ],
+    "primaryColors": [
+      "奶油白",
+      "浅咖",
+      "杏色"
+    ],
+    "materials": [
+      "肤感板",
+      "柔光砖",
+      "织物"
+    ],
+    "storageClosedRatio": 0.78,
+    "lightingPreference": "暖光混合照明",
+    "simulatedTransactionStatus": "AI模拟已成交标签",
+    "transactionEvidence": "无",
+    "revisionCount": 3,
+    "satisfaction5": 4.25,
+    "deliveryDays": 55,
+    "riskTags": [
+      "AI效果图待生成",
+      "预算需线下核价"
+    ],
+    "displayRight": "内部MVP演示",
+    "trainingRight": "可用于MVP规则测试；不可当作真实案例",
+    "anonymized": true,
+    "imageStatus": "待AI生成/待授权素材",
+    "image": "/cases/01_pure_ai_cases/OP-AI-007_云朵奶油婚房.png",
+    "sourceUrl": null
+  },
+  {
+    "id": "OP-AI-008",
+    "title": "静奢门墙柜一体宅",
+    "dataOrigin": "纯AI模拟",
+    "publicCaseUrl": null,
+    "publicVerifiedFields": "无",
+    "aiGeneratedFields": "全部字段（含名称、户型、面积、风格、预算、家庭、配色、材质、成交与交付）",
+    "region": "华南",
+    "city": "珠海",
+    "layout": "四房两厅",
+    "areaM2": 155,
+    "mainStyle": "现代轻奢",
+    "secondaryStyle": "意式轻奢",
+    "ambience": "沉稳精致",
+    "budgetMin": 346000,
+    "budgetMax": 422000,
+    "budgetTotal": 384000,
+    "householdType": "三代同堂",
+    "specialNeeds": [
+      "适老",
+      "夜间照明",
+      "低位收纳"
+    ],
+    "primaryColors": [
+      "暖灰",
+      "香槟金",
+      "深木"
+    ],
+    "materials": [
+      "岩板",
+      "金属",
+      "玻璃",
+      "肤感板"
+    ],
+    "storageClosedRatio": 0.72,
+    "lightingPreference": "无主灯+重点照明",
+    "simulatedTransactionStatus": "AI模拟已成交标签",
+    "transactionEvidence": "无",
+    "revisionCount": 4,
+    "satisfaction5": 4.3999999999999995,
+    "deliveryDays": 60,
+    "riskTags": [
+      "全部业务字段待真实数据替换"
+    ],
+    "displayRight": "内部MVP演示",
+    "trainingRight": "可用于MVP规则测试；不可当作真实案例",
+    "anonymized": true,
+    "imageStatus": "待AI生成/待授权素材",
+    "image": "/cases/01_pure_ai_cases/OP-AI-008_静奢门墙柜一体宅.png",
+    "sourceUrl": null
+  },
+  {
+    "id": "OP-AI-009",
+    "title": "东方留白书香之家",
+    "dataOrigin": "纯AI模拟",
+    "publicCaseUrl": null,
+    "publicVerifiedFields": "无",
+    "aiGeneratedFields": "全部字段（含名称、户型、面积、风格、预算、家庭、配色、材质、成交与交付）",
+    "region": "华南",
+    "city": "惠州",
+    "layout": "四房两厅",
+    "areaM2": 142,
+    "mainStyle": "新中式",
+    "secondaryStyle": "东方雅致",
+    "ambience": "安静雅致",
+    "budgetMin": 289000,
+    "budgetMax": 353000,
+    "budgetTotal": 321000,
+    "householdType": "夫妻+2名儿童",
+    "specialNeeds": [
+      "儿童安全",
+      "成长收纳"
+    ],
+    "primaryColors": [
+      "米白",
+      "胡桃木",
+      "黛灰"
+    ],
+    "materials": [
+      "木纹板",
+      "格栅",
+      "岩板",
+      "黄铜"
+    ],
+    "storageClosedRatio": 0.78,
+    "lightingPreference": "暖光混合照明",
+    "simulatedTransactionStatus": "AI模拟已成交标签",
+    "transactionEvidence": "无",
+    "revisionCount": 1,
+    "satisfaction5": 4.55,
+    "deliveryDays": 65,
+    "riskTags": [
+      "全部业务字段待真实数据替换"
+    ],
+    "displayRight": "内部MVP演示",
+    "trainingRight": "可用于MVP规则测试；不可当作真实案例",
+    "anonymized": true,
+    "imageStatus": "待AI生成/待授权素材",
+    "image": "/cases/01_pure_ai_cases/OP-AI-009_东方留白书香之家.png",
+    "sourceUrl": null
+  },
+  {
+    "id": "OP-AI-010",
+    "title": "小户型奶油猫咪屋",
+    "dataOrigin": "纯AI模拟",
+    "publicCaseUrl": null,
+    "publicVerifiedFields": "无",
+    "aiGeneratedFields": "全部字段（含名称、户型、面积、风格、预算、家庭、配色、材质、成交与交付）",
+    "region": "华南",
+    "city": "广州",
+    "layout": "一房一厅",
+    "areaM2": 58,
+    "mainStyle": "奶油风",
+    "secondaryStyle": "柔和治愈",
+    "ambience": "温馨柔和",
+    "budgetMin": 114000,
+    "budgetMax": 140000,
+    "budgetTotal": 127000,
+    "householdType": "单身+宠物",
+    "specialNeeds": [
+      "适宠",
+      "耐磨易清洁"
+    ],
+    "primaryColors": [
+      "奶油白",
+      "浅咖",
+      "杏色"
+    ],
+    "materials": [
+      "肤感板",
+      "柔光砖",
+      "织物"
+    ],
+    "storageClosedRatio": 0.8400000000000001,
+    "lightingPreference": "暖光混合照明",
+    "simulatedTransactionStatus": "AI模拟已成交标签",
+    "transactionEvidence": "无",
+    "revisionCount": 2,
+    "satisfaction5": 4.699999999999999,
+    "deliveryDays": 70,
+    "riskTags": [
+      "AI效果图待生成",
+      "预算需线下核价"
+    ],
+    "displayRight": "内部MVP演示",
+    "trainingRight": "可用于MVP规则测试；不可当作真实案例",
+    "anonymized": true,
+    "imageStatus": "待AI生成/待授权素材",
+    "image": "/cases/01_pure_ai_cases/OP-AI-010_小户型奶油猫咪屋.png",
+    "sourceUrl": null
+  },
+  {
+    "id": "OP-AI-011",
+    "title": "全龄无障碍原木宅",
+    "dataOrigin": "纯AI模拟",
+    "publicCaseUrl": null,
+    "publicVerifiedFields": "无",
+    "aiGeneratedFields": "全部字段（含名称、户型、面积、风格、预算、家庭、配色、材质、成交与交付）",
+    "region": "华南",
+    "city": "深圳",
+    "layout": "四房两厅",
+    "areaM2": 160,
+    "mainStyle": "现代原木",
+    "secondaryStyle": "自然北欧",
+    "ambience": "温暖松弛",
+    "budgetMin": 308000,
+    "budgetMax": 376000,
+    "budgetTotal": 342000,
+    "householdType": "三代同堂",
+    "specialNeeds": [
+      "适老",
+      "夜间照明",
+      "低位收纳"
+    ],
+    "primaryColors": [
+      "米白",
+      "浅橡木",
+      "暖灰"
+    ],
+    "materials": [
+      "木纹板",
+      "哑光板",
+      "织物"
+    ],
+    "storageClosedRatio": 0.74,
+    "lightingPreference": "暖光无主灯",
+    "simulatedTransactionStatus": "AI模拟已成交标签",
+    "transactionEvidence": "无",
+    "revisionCount": 3,
+    "satisfaction5": 4.1,
+    "deliveryDays": 75,
+    "riskTags": [
+      "全部业务字段待真实数据替换"
+    ],
+    "displayRight": "内部MVP演示",
+    "trainingRight": "可用于MVP规则测试；不可当作真实案例",
+    "anonymized": true,
+    "imageStatus": "待AI生成/待授权素材",
+    "image": "/cases/01_pure_ai_cases/OP-AI-011_全龄无障碍原木宅.png",
+    "sourceUrl": null
+  },
+  {
+    "id": "OP-AI-012",
+    "title": "琥珀金属都市大宅",
+    "dataOrigin": "纯AI模拟",
+    "publicCaseUrl": null,
+    "publicVerifiedFields": "无",
+    "aiGeneratedFields": "全部字段（含名称、户型、面积、风格、预算、家庭、配色、材质、成交与交付）",
+    "region": "华南",
+    "city": "佛山",
+    "layout": "四房两厅",
+    "areaM2": 168,
+    "mainStyle": "现代轻奢",
+    "secondaryStyle": "意式轻奢",
+    "ambience": "沉稳精致",
+    "budgetMin": 373000,
+    "budgetMax": 455000,
+    "budgetTotal": 414000,
+    "householdType": "夫妻+1名儿童",
+    "specialNeeds": [
+      "儿童安全",
+      "成长收纳"
+    ],
+    "primaryColors": [
+      "暖灰",
+      "香槟金",
+      "深木"
+    ],
+    "materials": [
+      "岩板",
+      "金属",
+      "玻璃",
+      "肤感板"
+    ],
+    "storageClosedRatio": 0.7,
+    "lightingPreference": "无主灯+重点照明",
+    "simulatedTransactionStatus": "AI模拟已成交标签",
+    "transactionEvidence": "无",
+    "revisionCount": 4,
+    "satisfaction5": 4.25,
+    "deliveryDays": 80,
+    "riskTags": [
+      "全部业务字段待真实数据替换"
+    ],
+    "displayRight": "内部MVP演示",
+    "trainingRight": "可用于MVP规则测试；不可当作真实案例",
+    "anonymized": true,
+    "imageStatus": "待AI生成/待授权素材",
+    "image": "/cases/01_pure_ai_cases/OP-AI-012_琥珀金属都市大宅.png",
+    "sourceUrl": null
+  },
+  {
+    "id": "OP-AI-013",
+    "title": "智能极简四口之家",
+    "dataOrigin": "纯AI模拟",
+    "publicCaseUrl": null,
+    "publicVerifiedFields": "无",
+    "aiGeneratedFields": "全部字段（含名称、户型、面积、风格、预算、家庭、配色、材质、成交与交付）",
+    "region": "华南",
+    "city": "东莞",
+    "layout": "四房两厅",
+    "areaM2": 132,
+    "mainStyle": "现代简约",
+    "secondaryStyle": "极简",
+    "ambience": "明亮有序",
+    "budgetMin": 231000,
+    "budgetMax": 283000,
+    "budgetTotal": 257000,
+    "householdType": "夫妻+2名儿童",
+    "specialNeeds": [
+      "儿童安全",
+      "成长收纳"
+    ],
+    "primaryColors": [
+      "米白",
+      "浅灰",
+      "木色"
+    ],
+    "materials": [
+      "哑光板",
+      "岩板",
+      "玻璃"
+    ],
+    "storageClosedRatio": 0.82,
+    "lightingPreference": "混合照明",
+    "simulatedTransactionStatus": "AI模拟已成交标签",
+    "transactionEvidence": "无",
+    "revisionCount": 1,
+    "satisfaction5": 4.3999999999999995,
+    "deliveryDays": 55,
+    "riskTags": [
+      "AI效果图待生成",
+      "预算需线下核价"
+    ],
+    "displayRight": "内部MVP演示",
+    "trainingRight": "可用于MVP规则测试；不可当作真实案例",
+    "anonymized": true,
+    "imageStatus": "待AI生成/待授权素材",
+    "image": "/cases/01_pure_ai_cases/OP-AI-013_智能极简四口之家.png",
+    "sourceUrl": null
+  },
+  {
+    "id": "OP-AI-014",
+    "title": "东方茶叙适老雅居",
+    "dataOrigin": "纯AI模拟",
+    "publicCaseUrl": null,
+    "publicVerifiedFields": "无",
+    "aiGeneratedFields": "全部字段（含名称、户型、面积、风格、预算、家庭、配色、材质、成交与交付）",
+    "region": "华南",
+    "city": "珠海",
+    "layout": "三房两厅",
+    "areaM2": 126,
+    "mainStyle": "新中式",
+    "secondaryStyle": "东方雅致",
+    "ambience": "安静雅致",
+    "budgetMin": 263000,
+    "budgetMax": 321000,
+    "budgetTotal": 292000,
+    "householdType": "夫妻+老人",
+    "specialNeeds": [
+      "适老",
+      "夜间照明",
+      "低位收纳"
+    ],
+    "primaryColors": [
+      "米白",
+      "胡桃木",
+      "黛灰"
+    ],
+    "materials": [
+      "木纹板",
+      "格栅",
+      "岩板",
+      "黄铜"
+    ],
+    "storageClosedRatio": 0.78,
+    "lightingPreference": "暖光混合照明",
+    "simulatedTransactionStatus": "AI模拟已成交标签",
+    "transactionEvidence": "无",
+    "revisionCount": 2,
+    "satisfaction5": 4.55,
+    "deliveryDays": 60,
+    "riskTags": [
+      "全部业务字段待真实数据替换"
+    ],
+    "displayRight": "内部MVP演示",
+    "trainingRight": "可用于MVP规则测试；不可当作真实案例",
+    "anonymized": true,
+    "imageStatus": "待AI生成/待授权素材",
+    "image": "/cases/01_pure_ai_cases/OP-AI-014_东方茶叙适老雅居.png",
+    "sourceUrl": null
+  },
+  {
+    "id": "OP-AI-015",
+    "title": "柔光意式收纳宅",
+    "dataOrigin": "纯AI模拟",
+    "publicCaseUrl": null,
+    "publicVerifiedFields": "无",
+    "aiGeneratedFields": "全部字段（含名称、户型、面积、风格、预算、家庭、配色、材质、成交与交付）",
+    "region": "华南",
+    "city": "惠州",
+    "layout": "三房两厅",
+    "areaM2": 112,
+    "mainStyle": "现代轻奢",
+    "secondaryStyle": "意式轻奢",
+    "ambience": "沉稳精致",
+    "budgetMin": 248000,
+    "budgetMax": 304000,
+    "budgetTotal": 276000,
+    "householdType": "夫妻+1名儿童",
+    "specialNeeds": [
+      "儿童安全",
+      "成长收纳"
+    ],
+    "primaryColors": [
+      "暖灰",
+      "香槟金",
+      "深木"
+    ],
+    "materials": [
+      "岩板",
+      "金属",
+      "玻璃",
+      "肤感板"
+    ],
+    "storageClosedRatio": 0.76,
+    "lightingPreference": "无主灯+重点照明",
+    "simulatedTransactionStatus": "AI模拟已成交标签",
+    "transactionEvidence": "无",
+    "revisionCount": 3,
+    "satisfaction5": 4.699999999999999,
+    "deliveryDays": 65,
+    "riskTags": [
+      "全部业务字段待真实数据替换"
+    ],
+    "displayRight": "内部MVP演示",
+    "trainingRight": "可用于MVP规则测试；不可当作真实案例",
+    "anonymized": true,
+    "imageStatus": "待AI生成/待授权素材",
+    "image": "/cases/01_pure_ai_cases/OP-AI-015_柔光意式收纳宅.png",
+    "sourceUrl": null
+  }
+]

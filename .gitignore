@@ -1,0 +1,36 @@
+# Dependencies and generated application output
+**/node_modules/
+**/.next/
+**/.vinext/
+**/dist/
+**/.wrangler/
+**/coverage/
+**/out/
+**/*.tsbuildinfo
+
+# Local environment and credentials
+**/.env*
+!**/.env.example
+**/*.pem
+**/*.pfx
+**/*.key
+
+# Logs and local QA artifacts
+**/*.log
+**/.playwright-cli/
+/.qa/
+/.tmp-*/
+
+# Editor and operating-system metadata
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Local Codex instructions and workspace metadata
+/.agents/
+/AGENTS.md*
+
+# Duplicate generated image exports; runtime copies live in site/public/cases
+/outputs/**/image_assets_v1/
+/outputs/**/*.zip
