@@ -2,6 +2,7 @@
 ![主页面](docs/Rendering1.png)
 ![主页面](docs/Rendering2.png)
 ![主页面](docs/Rendering3.png)
+![主页面](docs/Rendering4.png)
 
 # 欧派AI灵感家
 
