@@ -34,3 +34,7 @@ Thumbs.db
 # Duplicate generated image exports; runtime copies live in site/public/cases
 /outputs/**/image_assets_v1/
 /outputs/**/*.zip
+/outputs/feishu-plan-qa
+/outputs/judge-plan-qa
+/outputs/方案
+work
