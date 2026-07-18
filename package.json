@@ -1,0 +1,16 @@
+{
+  "name": "oppein-ai-inspiration-home-system",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "setup": "npm --prefix site install",
+    "dev": "npm --prefix site run dev",
+    "build": "npm --prefix site run build",
+    "test": "npm --prefix site test",
+    "lint": "npm --prefix site run lint",
+    "typecheck": "npm --prefix site run typecheck"
+  },
+  "engines": {
+    "node": ">=22.13.0"
+  }
+}

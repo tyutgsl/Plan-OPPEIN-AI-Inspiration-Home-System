@@ -46,7 +46,7 @@ function buildRisks(caseSkus: DeliverySku[], resolved: Set<string>): RiskEvent[]
   ];
 }
 
-export function createDeliveryProject(caseId: string, resolvedRiskIds: string[] = []): DeliveryProject {
+export function createDeliveryProject(caseId: string, resolvedRiskIds: string[] = [], workspaceId = "demo"): DeliveryProject {
   const selectedCase = cases.find((item) => item.id === caseId);
   if (!selectedCase) throw new Error(`未找到案例：${caseId}`);
   const caseSkus = skus.filter((item) => item.caseId === caseId);
@@ -75,7 +75,7 @@ export function createDeliveryProject(caseId: string, resolvedRiskIds: string[] 
   if (resolved.has("RISK-DELIVERY-001")) activities.push({ time: "10:23", title: "交期风险已模拟处理", detail: "已采用两批齐套方案并重排模拟安装窗口。", kind: "resolved" });
 
   return {
-    id: `SIM-${caseId}-20260717`,
+    id: `SIM-${workspaceId.replace(/[^a-zA-Z0-9]/g, "").slice(0, 8).toUpperCase() || "LOCAL"}-${caseId}`,
     version: DELIVERY_VERSION,
     selectedCaseId: caseId,
     selectedCaseTitle: selectedCase.title,

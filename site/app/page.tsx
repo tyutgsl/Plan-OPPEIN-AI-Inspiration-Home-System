@@ -1,5 +1,5 @@
-import { VisualPreferenceSelector } from "./components/VisualPreferenceSelector";
+import { CustomerExperienceApp } from "./components/CustomerExperienceApp";
 
 export default function Home() {
-  return <VisualPreferenceSelector />;
+  return <CustomerExperienceApp />;
 }

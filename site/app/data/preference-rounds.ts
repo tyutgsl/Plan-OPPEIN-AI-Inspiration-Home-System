@@ -56,7 +56,7 @@ export const preferenceRounds: PreferenceRound[] = [
     key: "storage",
     eyebrow: "05 · 收纳方式",
     title: "物品应该怎样被看见？",
-    prompt: "结合林女士的儿童安全、易清洁和视觉整洁需求判断。",
+    prompt: "结合当前客户的家庭结构、清洁和视觉整洁需求判断。",
     options: [
       { id: "storage-closed", title: "高封闭收纳", description: "≥75%封闭，整洁且易维护", image: ai("OP-AI-008_静奢门墙柜一体宅.png"), tags: ["隐形", "整洁"], value: "高封闭" },
       { id: "storage-balanced", title: "均衡收纳", description: "展示与隐藏各有分工", image: ai("OP-AI-002_浅橡木亲子收纳宅.png"), tags: ["均衡", "灵活"], value: "均衡" },

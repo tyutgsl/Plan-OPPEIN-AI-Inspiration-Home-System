@@ -1,21 +1,26 @@
 "use client";
 
-import { useMemo, useState } from "react";
+import { useMemo } from "react";
 import { createDeliveryProject } from "../lib/delivery-engine";
+import type { CustomerWorkspace } from "../types/customer";
 import type { RecommendationResult } from "../types/recommendation";
 
-type Props = { recommendation: RecommendationResult };
+type Props = {
+  recommendation: RecommendationResult;
+  workspace: CustomerWorkspace;
+  onUpdate: (updater: (current: CustomerWorkspace) => CustomerWorkspace) => void;
+};
 const money = (value: number) => `¥${value.toLocaleString("zh-CN")}`;
 const statusLabel = { completed: "已完成", current: "进行中", risk: "风险待处理", pending: "待开始" } as const;
 
-export function DeliveryBoard({ recommendation }: Props) {
-  const [resolvedRiskIds, setResolvedRiskIds] = useState<string[]>([]);
-  const project = useMemo(() => createDeliveryProject(recommendation.case.id, resolvedRiskIds), [recommendation.case.id, resolvedRiskIds]);
+export function DeliveryBoard({ recommendation, workspace, onUpdate }: Props) {
+  const { resolvedRiskIds } = workspace;
+  const project = useMemo(() => createDeliveryProject(recommendation.case.id, resolvedRiskIds, workspace.id), [recommendation.case.id, resolvedRiskIds, workspace.id]);
   const openRisks = project.risks.filter((risk) => risk.status === "open");
   const quoteTotal = project.skus.filter((sku) => project.quotedSkuCodes.includes(sku.skuCode)).reduce((sum, sku) => sum + sku.lineTotal, 0);
   const fullTotal = project.skus.reduce((sum, sku) => sum + sku.lineTotal, 0);
 
-  const resolveRisk = (riskId: string) => setResolvedRiskIds((current) => current.includes(riskId) ? current : [...current, riskId]);
+  const resolveRisk = (riskId: string) => onUpdate((current) => ({ ...current, resolvedRiskIds: current.resolvedRiskIds.includes(riskId) ? current.resolvedRiskIds : [...current.resolvedRiskIds, riskId] }));
 
   return (
     <section className="delivery-board" id="delivery-board" aria-labelledby="delivery-title">
@@ -23,7 +28,7 @@ export function DeliveryBoard({ recommendation }: Props) {
         <div>
           <p className="kicker">STEP 05 · DELIVERY CONTROL</p>
           <h2 id="delivery-title">一条透明的<em>模拟交付链</em></h2>
-          <p>同一份客户画像与所选方案继续服务报价和交付。这里展示的SKU、价格、日期和进度均为比赛MVP模拟数据，不连接欧派真实系统。</p>
+          <p>{workspace.request.displayName}的同一份客户画像与所选方案继续服务报价和交付。这里展示的SKU、价格、日期和进度均为比赛MVP模拟数据，不连接欧派真实系统。</p>
         </div>
         <div className="project-id-card"><span>模拟项目编号</span><strong>{project.id}</strong><small>{project.version}</small></div>
       </div>

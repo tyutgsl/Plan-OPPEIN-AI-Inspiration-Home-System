@@ -4,8 +4,15 @@ import Image from "next/image";
 import { useEffect, useMemo, useState } from "react";
 import { preferenceRounds } from "../data/preference-rounds";
 import { buildProfile, detectConflicts, selectedAction } from "../lib/preference-engine";
+import { householdLabel, type CustomerWorkspace } from "../types/customer";
 import type { PreferenceAction, PreferenceEvent, PreferenceOption } from "../types/preferences";
 import { RecommendationResults } from "./RecommendationResults";
+
+type Props = {
+  workspace: CustomerWorkspace;
+  onUpdate: (updater: (current: CustomerWorkspace) => CustomerWorkspace) => void;
+  onBack: () => void;
+};
 
 const actionMeta: Record<Exclude<PreferenceAction, "skip">, { label: string; icon: string }> = {
   like: { label: "喜欢", icon: "♡" },
@@ -13,16 +20,13 @@ const actionMeta: Record<Exclude<PreferenceAction, "skip">, { label: string; ico
   neutral: { label: "都可以", icon: "○" },
 };
 
-export function VisualPreferenceSelector() {
-  const [roundIndex, setRoundIndex] = useState(0);
-  const [events, setEvents] = useState<PreferenceEvent[]>([]);
+export function VisualPreferenceSelector({ workspace, onUpdate, onBack }: Props) {
   const [preview, setPreview] = useState<PreferenceOption | null>(null);
   const [conflictChoice, setConflictChoice] = useState<"accepted" | "kept" | null>(null);
-  const [showRecommendations, setShowRecommendations] = useState(false);
-  const [budgetMax, setBudgetMax] = useState(250_000);
+  const { request, events, currentRound: roundIndex, showRecommendations } = workspace;
   const round = preferenceRounds[roundIndex];
   const profile = useMemo(() => buildProfile(events), [events]);
-  const conflicts = useMemo(() => detectConflicts(events), [events]);
+  const conflicts = useMemo(() => detectConflicts(events, request), [events, request]);
   const activeConflict = conflicts[0];
   const completion = Math.round(((roundIndex + 1) / preferenceRounds.length) * 100);
   const roundHasChoice = events.some((event) => event.round === round.key);
@@ -35,27 +39,26 @@ export function VisualPreferenceSelector() {
 
   const choose = (option: PreferenceOption, action: Exclude<PreferenceAction, "skip">) => {
     setConflictChoice(null);
-    setEvents((current) => [
-      ...current.filter((event) => !(event.round === round.key && event.optionId === option.id)),
+    onUpdate((current) => ({ ...current, events: [
+      ...current.events.filter((event) => !(event.round === round.key && event.optionId === option.id)),
       { id: crypto.randomUUID(), round: round.key, optionId: option.id, optionTitle: option.title, value: option.value, action, createdAt: Date.now() },
-    ]);
+    ], selectedCaseId: null, resolvedRiskIds: [] }));
   };
 
   const skipRound = () => {
-    setEvents((current) => [...current, { id: crypto.randomUUID(), round: round.key, action: "skip", createdAt: Date.now() }]);
+    const skipped: PreferenceEvent = { id: crypto.randomUUID(), round: round.key, action: "skip", createdAt: Date.now() };
     if (roundIndex === preferenceRounds.length - 1) {
-      setShowRecommendations(true);
+      onUpdate((current) => ({ ...current, events: [...current.events, skipped], showRecommendations: true, selectedCaseId: null, resolvedRiskIds: [] }));
       window.setTimeout(() => document.getElementById("recommendations")?.scrollIntoView({ behavior: "smooth", block: "start" }), 60);
     } else {
-      setRoundIndex((current) => Math.min(preferenceRounds.length - 1, current + 1));
+      onUpdate((current) => ({ ...current, events: [...current.events, skipped], currentRound: Math.min(preferenceRounds.length - 1, current.currentRound + 1), selectedCaseId: null, resolvedRiskIds: [] }));
     }
   };
 
   const undo = () => {
-    setEvents((current) => {
-      const last = current.at(-1);
-      if (last) setRoundIndex(preferenceRounds.findIndex((item) => item.key === last.round));
-      return current.slice(0, -1);
+    onUpdate((current) => {
+      const last = current.events.at(-1);
+      return { ...current, events: current.events.slice(0, -1), currentRound: last ? preferenceRounds.findIndex((item) => item.key === last.round) : current.currentRound, showRecommendations: false, selectedCaseId: null, resolvedRiskIds: [] };
     });
     setConflictChoice(null);
   };
@@ -63,15 +66,15 @@ export function VisualPreferenceSelector() {
   const acceptCompromise = () => {
     const option = preferenceRounds.find((item) => item.key === "storage")?.options.find((item) => item.id === "storage-balanced");
     if (!option) return;
-    setEvents((current) => [
-      ...current.filter((event) => event.round !== "storage"),
+    onUpdate((current) => ({ ...current, events: [
+      ...current.events.filter((event) => event.round !== "storage"),
       { id: crypto.randomUUID(), round: "storage", optionId: option.id, optionTitle: "20%开放＋80%封闭", value: "高封闭", action: "like", createdAt: Date.now() },
-    ]);
+    ], selectedCaseId: null, resolvedRiskIds: [] }));
     setConflictChoice("accepted");
   };
 
   const finishProfile = () => {
-    setShowRecommendations(true);
+    onUpdate((current) => ({ ...current, showRecommendations: true, selectedCaseId: null, resolvedRiskIds: [] }));
     window.setTimeout(() => document.getElementById("recommendations")?.scrollIntoView({ behavior: "smooth", block: "start" }), 60);
   };
 
@@ -82,14 +85,14 @@ export function VisualPreferenceSelector() {
           <span className="brand-mark">OP</span>
           <span><strong>欧派 AI 灵感家</strong><small>让模糊想法，变成可落地的家</small></span>
         </a>
-        <div className="demo-pill"><span />演示客户：林女士 · 广州 · 98㎡</div>
+        <div className="header-customer-actions"><button className="text-button" onClick={onBack}>← 客户列表</button><div className="demo-pill"><span />{request.displayName} · {request.city} · {request.areaM2}㎡</div></div>
       </header>
 
       <section className="hero" id="top">
         <div>
           <p className="kicker">AI VISUAL DISCOVERY · STEP 02</p>
           <h1>不必描述风格，<br /><em>看图就能说清楚。</em></h1>
-          <p className="hero-copy">基于前置需求，逐轮确认氛围、风格与生活细节。每次选择都会实时更新客户画像，并主动提示难以兼顾的需求。</p>
+          <p className="hero-copy">基于“{request.freeText}”逐轮确认氛围、风格与生活细节。每次选择都会实时更新独立客户画像。</p>
         </div>
         <div className="journey" aria-label="客户旅程进度">
           {["需求输入", "视觉选择", "客户画像", "案例推荐"].map((label, index) => (
@@ -165,7 +168,7 @@ export function VisualPreferenceSelector() {
             <button className="text-button" onClick={undo} disabled={!events.length}>↶ 撤销上一步</button>
             <div>
               <button className="text-button" onClick={skipRound}>跳过本轮</button>
-              <button className="primary-button" disabled={!roundHasChoice} onClick={() => roundIndex === preferenceRounds.length - 1 ? finishProfile() : setRoundIndex((current) => Math.min(preferenceRounds.length - 1, current + 1))}>
+              <button className="primary-button" disabled={!roundHasChoice} onClick={() => roundIndex === preferenceRounds.length - 1 ? finishProfile() : onUpdate((current) => ({ ...current, currentRound: Math.min(preferenceRounds.length - 1, current.currentRound + 1) }))}>
                 {roundIndex === preferenceRounds.length - 1 ? "完成视觉画像" : "保存并进入下一轮"} <span>→</span>
               </button>
             </div>
@@ -174,10 +177,10 @@ export function VisualPreferenceSelector() {
 
         <aside className="profile-panel" aria-live="polite">
           <div className="profile-heading"><p>实时客户画像</p><span><i />AI 正在理解</span></div>
-          <h2>林女士的家</h2>
-          <p className="profile-summary">三房两厅 · 夫妻＋6岁儿童<br />预算约25万元 · 强收纳</p>
+          <h2>{request.displayName}的家</h2>
+          <p className="profile-summary">{request.layout} · {request.areaM2}㎡ · {householdLabel(request.household)}<br />预算{request.budgetMin / 10_000}—{request.budgetMax / 10_000}万元</p>
           <div className="profile-needs">
-            <span>儿童安全</span><span>易清洁</span><span>视觉整洁</span>
+            {request.specialNeeds.length ? request.specialNeeds.map((need) => <span key={need}>{need}</span>) : <span>暂无特殊需求</span>}
           </div>
           <div className="profile-list">
             {profile.length ? profile.map((item) => (
@@ -192,7 +195,7 @@ export function VisualPreferenceSelector() {
         </aside>
       </section>
 
-      {showRecommendations && <RecommendationResults events={events} budgetMax={budgetMax} onBudgetChange={setBudgetMax} />}
+      {showRecommendations && <RecommendationResults workspace={workspace} onUpdate={onUpdate} />}
 
       <footer><span>欧派AI灵感家 · MVP v1.0</span><p>页面图片均为 <strong>AI生成示意图</strong>，仅用于产品功能演示，不代表真实交付效果。</p></footer>
 

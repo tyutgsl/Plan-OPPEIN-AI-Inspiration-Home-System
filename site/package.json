@@ -15,7 +15,7 @@
     "test": "npm run build && node --test tests/rendered-html.test.mjs && npm run test:rules",
     "lint": "eslint . --ignore-pattern dist --ignore-pattern .next",
     "typecheck": "tsc -p tsconfig.app.json",
-    "test:rules": "tsx --test tests/preference-engine.test.ts tests/recommendation-engine.test.ts tests/delivery-engine.test.ts",
+    "test:rules": "tsx --test tests/preference-engine.test.ts tests/recommendation-engine.test.ts tests/delivery-engine.test.ts tests/customer-mode.test.ts",
     "db:generate": "drizzle-kit generate"
   },
   "dependencies": {

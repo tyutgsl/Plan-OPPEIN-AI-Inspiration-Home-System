@@ -1,4 +1,6 @@
 import rawCases from "../data/recommendation-cases.json";
+import { linDemoRequest } from "./customer-storage";
+import { recommendationHouseholdLabel, type CustomerRequest } from "../types/customer";
 import type { PreferenceEvent } from "../types/preferences";
 import type {
   DesignCase,
@@ -39,7 +41,7 @@ function eventValues(events: PreferenceEvent[] | undefined, round: PreferenceEve
   return (events ?? []).filter((event) => event.round === round && event.action === "like" && event.value).map((event) => event.value!);
 }
 
-export function buildRecommendationInput(events: PreferenceEvent[], budgetMax = 250_000): RecommendationInput {
+export function buildRecommendationInput(events: PreferenceEvent[], budgetMax = 250_000, customerRequest: CustomerRequest = linDemoRequest): RecommendationInput {
   const styles = eventValues(events, "style");
   const mood = eventValues(events, "mood");
   const temperature = eventValues(events, "temperature").at(-1);
@@ -47,19 +49,24 @@ export function buildRecommendationInput(events: PreferenceEvent[], budgetMax = 
   const storage = eventValues(events, "storage").at(-1);
   const lighting = eventValues(events, "lighting");
   return {
-    city: "广州",
-    layout: "三房两厅",
-    areaM2: 98,
-    budgetMin: Math.round(budgetMax * 0.8),
+    city: customerRequest.city,
+    layout: customerRequest.layout,
+    areaM2: customerRequest.areaM2,
+    budgetMin: Math.min(customerRequest.budgetMin, budgetMax),
     budgetMax,
-    householdType: "夫妻+1名儿童",
+    householdType: recommendationHouseholdLabel(customerRequest.household),
     preferredStyles: styles.length ? styles : ["现代原木", "现代简约"],
     ambience: mood.length ? mood : ["明亮温馨", "自然松弛"],
     temperature: temperature === "冷" || temperature === "中性" || temperature === "暖" ? temperature : "暖",
     materials: materials.length ? materials : ["木纹", "哑光"],
     storageClosedRatio: storage === "高开放" ? 0.35 : storage === "均衡" ? 0.6 : 0.8,
     lighting: lighting.length ? lighting : ["混合"],
-    needs: ["儿童安全", "强收纳", "易清洁", "视觉整洁"],
+    needs: [...new Set([
+      ...customerRequest.specialNeeds,
+      ...(customerRequest.household.children > 0 ? ["儿童安全"] : []),
+      ...(customerRequest.household.elders > 0 ? ["适老无障碍"] : []),
+      ...(customerRequest.household.pets > 0 ? ["宠物友好"] : []),
+    ])],
     events,
   };
 }
@@ -97,7 +104,7 @@ function layoutScore(designCase: DesignCase, input: RecommendationInput) {
   const layoutPart = designCase.layout === input.layout ? 100 : designCase.layout.includes("三房") === input.layout.includes("三房") ? 80 : 45;
   const delta = Math.abs(designCase.areaM2 - input.areaM2) / input.areaM2;
   const areaPart = delta <= 0.1 ? 100 : delta <= 0.25 ? 85 - ((delta - 0.1) / 0.15) * 25 : clamp(55 - (delta - 0.25) * 90, 20);
-  return { score: round1(layoutPart * 0.6 + areaPart * 0.4), evidence: `${designCase.areaM2}㎡${designCase.layout}，与98㎡${input.layout}对照` };
+  return { score: round1(layoutPart * 0.6 + areaPart * 0.4), evidence: `${designCase.areaM2}㎡${designCase.layout}，与${input.areaM2}㎡${input.layout}对照` };
 }
 
 function householdScore(designCase: DesignCase, input: RecommendationInput) {

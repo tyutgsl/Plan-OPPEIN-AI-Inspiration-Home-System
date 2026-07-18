@@ -3,23 +3,23 @@
 import Image from "next/image";
 import { useMemo, useState } from "react";
 import { buildRecommendationInput, recommend } from "../lib/recommendation-engine";
-import type { PreferenceEvent } from "../types/preferences";
-import type { RecommendationResult } from "../types/recommendation";
+import type { CustomerWorkspace } from "../types/customer";
 import { DeliveryBoard } from "./DeliveryBoard";
 
 type Props = {
-  events: PreferenceEvent[];
-  budgetMax: number;
-  onBudgetChange: (budget: number) => void;
+  workspace: CustomerWorkspace;
+  onUpdate: (updater: (current: CustomerWorkspace) => CustomerWorkspace) => void;
 };
 
 const money = (value: number) => `${(value / 10_000).toFixed(value % 10_000 === 0 ? 0 : 1)}万`;
 
-export function RecommendationResults({ events, budgetMax, onBudgetChange }: Props) {
+export function RecommendationResults({ workspace, onUpdate }: Props) {
   const [expandedCard, setExpandedCard] = useState<string | null>(null);
-  const [selectedResult, setSelectedResult] = useState<RecommendationResult | null>(null);
-  const input = useMemo(() => buildRecommendationInput(events, budgetMax), [events, budgetMax]);
+  const { events, recommendationBudgetMax: budgetMax, request } = workspace;
+  const input = useMemo(() => buildRecommendationInput(events, budgetMax, request), [events, budgetMax, request]);
   const run = useMemo(() => recommend(input), [input]);
+  const selectedResult = run.results.find((result) => result.case.id === workspace.selectedCaseId) ?? null;
+  const budgetOptions = [...new Set([Math.max(request.budgetMin, request.budgetMax - 50_000), request.budgetMax, request.budgetMax + 50_000])].sort((a, b) => a - b);
 
   return (
     <section className="recommendation-section" id="recommendations" aria-labelledby="recommendation-title">
@@ -33,11 +33,11 @@ export function RecommendationResults({ events, budgetMax, onBudgetChange }: Pro
           <span>模拟预算上限</span>
           <strong>{money(budgetMax)}元</strong>
           <div>
-            {[200_000, 250_000, 300_000].map((budget) => (
-              <button key={budget} className={budget === budgetMax ? "active" : ""} onClick={() => { setSelectedResult(null); onBudgetChange(budget); }}>{money(budget)}</button>
+            {budgetOptions.map((budget) => (
+              <button key={budget} className={budget === budgetMax ? "active" : ""} onClick={() => onUpdate((current) => ({ ...current, recommendationBudgetMax: budget, selectedCaseId: null, resolvedRiskIds: [] }))}>{money(budget)}</button>
             ))}
           </div>
-          {budgetMax !== 250_000 && <small>已从25万基准重新计算，排序与预算分同步变化。</small>}
+          {budgetMax !== request.budgetMax && <small>已从{money(request.budgetMax)}基准重新计算，排序与预算分同步变化。</small>}
         </div>
       </div>
 
@@ -103,7 +103,7 @@ export function RecommendationResults({ events, budgetMax, onBudgetChange }: Pro
                   {result.case.sourceUrl && <a href={result.case.sourceUrl} target="_blank" rel="noreferrer">查看来源参考页 ↗</a>}
                 </div>
                 <button className="select-plan-button" onClick={() => {
-                  setSelectedResult(result);
+                  onUpdate((current) => ({ ...current, selectedCaseId: result.case.id, resolvedRiskIds: [] }));
                   window.setTimeout(() => document.getElementById("delivery-board")?.scrollIntoView({ behavior: "smooth", block: "start" }), 60);
                 }}>{selectedResult?.case.id === result.case.id ? "已选择此方案" : "选择此方案，进入交付看板"}<span>→</span></button>
               </div>
@@ -116,7 +116,7 @@ export function RecommendationResults({ events, budgetMax, onBudgetChange }: Pro
         <div><strong>基础公式</strong><p>S = 25%风格＋20%预算＋15%户型面积＋15%家庭结构＋10%功能需求＋10%成交表现＋5%满意度</p></div>
         <div><strong>解释边界</strong><p>推荐理由来自分项得分与案例可见字段；“模拟已成交”不是实际成交证明，系统不会输出保证成交、绝不超预算等承诺。</p></div>
       </div>
-      {selectedResult && <DeliveryBoard recommendation={selectedResult} />}
+      {selectedResult && <DeliveryBoard recommendation={selectedResult} workspace={workspace} onUpdate={onUpdate} />}
     </section>
   );
 }
