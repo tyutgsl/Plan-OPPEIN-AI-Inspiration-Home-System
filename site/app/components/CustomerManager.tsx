@@ -1,5 +1,8 @@
 "use client";
 
+import Image from "next/image";
+import { ArrowDown, ArrowUpRight, ChevronRight, Sparkles } from "lucide-react";
+import { motion } from "motion/react";
 import { useMemo, useState } from "react";
 import { LIN_DEMO_ID, linDemoRequest } from "../lib/customer-storage";
 import { householdLabel, type CustomerRequest, type CustomerWorkspace } from "../types/customer";
@@ -79,20 +82,41 @@ export function CustomerManager({ customers, onSave, onStart, onUseDemo, onDelet
 
   return (
     <main className="customer-home">
-      <header className="site-header">
-        <a className="brand" href="#top" aria-label="欧派AI灵感家首页">
-          <span className="brand-mark">OP</span>
-          <span><strong>欧派 AI 灵感家</strong><small>让模糊想法，变成可落地的家</small></span>
-        </a>
-        <div className="demo-pill"><span />本机演示模式 · 不连接数据库</div>
-      </header>
+      <section className="home-hero-shell" id="top">
+        <div className="home-hero">
+          <Image className="home-hero-media" src="/cases/01_pure_ai_cases/OP-AI-001_奶咖晨光成长之家.png" alt="柔和晨光中的现代家居空间，AI生成示意图" fill priority unoptimized />
+          <div className="home-hero-wash" />
+          <div className="home-hero-content">
+            <nav className="home-nav" aria-label="主导航">
+              <a className="home-brand" href="#top" aria-label="欧派AI灵感家首页"><span>OP</span><strong>欧派 AI 灵感家</strong></a>
+              <div className="home-nav-links"><a href="#customer-list-title">客户空间</a><button onClick={openCreate}>需求采集</button><button onClick={onUseDemo}>智能体验</button></div>
+              <motion.button whileHover={{ scale: 1.02 }} whileTap={{ scale: .98 }} className="home-nav-cta" onClick={openCreate}><span><ArrowUpRight /></span>创建匿名客户</motion.button>
+            </nav>
 
-      <section className="request-hero" id="top">
-        <div><p className="kicker">STEP 01 · CUSTOMER REQUEST</p><h1>先认识居住的人，<br /><em>再理解理想的家。</em></h1><p>按照PRD录入户型、面积、预算、家庭结构和自由描述。数据仅保存在当前浏览器，不收集手机号或详细地址。</p></div>
-        <div className="request-actions"><button className="primary-button" onClick={openCreate}>＋ 创建匿名客户</button><button className="demo-button" onClick={onUseDemo}>▶ 一键使用林女士演示案例</button></div>
+            <div className="home-hero-copy">
+              <motion.div className="home-badge" initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: .6 }}><Sparkles />AI 全屋灵感工作台</motion.div>
+              <motion.h1 initial={{ opacity: 0, scale: .98 }} animate={{ opacity: 1, scale: 1 }} transition={{ duration: .8, delay: .2 }}>让家的想象，<br />自然流向现实。</motion.h1>
+              <motion.p initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: .8, delay: .4 }}>从一句生活描述出发，通过视觉偏好、智能推荐与透明交付，把模糊灵感沉淀为可理解、可选择、可推进的家居方案。</motion.p>
+            </div>
+
+            <motion.div className="home-demo-card" initial={{ x: -20, opacity: 0 }} animate={{ x: 0, opacity: 1 }} transition={{ duration: .8, delay: .2 }}>
+              <span>固定演示案例</span><strong>林女士 · 98㎡</strong><small>7 轮视觉选择 · 完整推荐链路</small>
+              <motion.button whileHover={{ scale: 1.02 }} whileTap={{ scale: .98 }} onClick={onUseDemo}><i><ArrowUpRight /></i>一键使用林女士演示案例</motion.button>
+            </motion.div>
+
+            <motion.button className="home-corner-cta" initial={{ y: 20, opacity: 0 }} animate={{ y: 0, opacity: 1 }} transition={{ duration: .8, delay: .4 }} onClick={openCreate}>
+              <i><ArrowUpRight /></i><span><strong>创建专属方案</strong><small>录入匿名需求 <ChevronRight /></small></span>
+            </motion.button>
+            <a className="home-scroll" href="#customer-list-title" aria-label="浏览客户列表"><ArrowDown /></a>
+          </div>
+        </div>
       </section>
 
       <section className="customer-list-section" aria-labelledby="customer-list-title">
+        <div className="customer-list-visual" aria-hidden="true">
+          <Image src="/cases/01_pure_ai_cases/OP-AI-008_静奢门墙柜一体宅.png" alt="" fill sizes="(max-width: 760px) 0px, 62vw" unoptimized />
+          <span>静奢门墙柜一体宅 · AI 灵感场景</span>
+        </div>
         <div className="section-heading"><div><p>本机客户列表</p><h2 id="customer-list-title">选择客户，继续上次体验</h2></div><span>{customers.length}份匿名档案</span></div>
         <div className="customer-grid">
           {sortedCustomers.map((customer) => {
@@ -110,6 +134,7 @@ export function CustomerManager({ customers, onSave, onStart, onUseDemo, onDelet
       </section>
 
       {showForm && <section className="request-form-section" id="request-form" aria-labelledby="request-title">
+        <div className="request-form-pattern" aria-hidden="true"><Image src="/patterns/interior-botanical-pattern.png" alt="" fill sizes="100vw" unoptimized /></div>
         <div className="section-heading"><div><p>{editingId ? "编辑匿名需求" : "创建匿名需求"}</p><h2 id="request-title">完成基础资料后进入视觉选择</h2></div><button className="text-button" onClick={() => setShowForm(false)}>收起表单</button></div>
         <form className="request-form" onSubmit={submit} noValidate>
           <fieldset><legend>基础资料</legend><div className="form-grid">
