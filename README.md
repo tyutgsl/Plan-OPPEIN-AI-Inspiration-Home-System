@@ -1,3 +1,8 @@
+# 网页部分展示
+！[主页面](docs/Rendering1.png)
+！[主页面](docs/Rendering2.png)
+！[主页面](docs/Rendering3.png)
+
 # 欧派AI灵感家
 
 基于成交案例库的客户需求洞察与全案推荐系统，用于“AI + 客户体验”比赛MVP演示。
